@@ -1,3 +1,10 @@
+// Initialize EmailJS
+(function() {
+    emailjs.init({
+        publicKey: "YOUR_PUBLIC_KEY_HERE" // Ganti dengan public key Anda nanti
+    });
+})();
+
 // Mobile Menu Toggle
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
@@ -85,25 +92,54 @@ filterBtns.forEach(btn => {
     });
 });
 
-// Form Validation and Submission
-const contactForm = document.querySelector('.contact-form');
+// Form Validation and Submission with EmailJS
+const contactForm = document.getElementById('contactForm');
 
-contactForm.addEventListener('submit', (e) => {
+contactForm.addEventListener('submit', function(e) {
     e.preventDefault();
 
     // Get form values
-    const name = contactForm.querySelector('input[type="text"]').value;
-    const email = contactForm.querySelector('input[type="email"]').value;
-    const message = contactForm.querySelector('textarea').value;
+    const userName = document.getElementById('user_name').value.trim();
+    const userEmail = document.getElementById('user_email').value.trim();
+    const message = document.getElementById('message').value.trim();
 
-    // Simple validation
-    if (name.trim() && email.trim() && message.trim()) {
-        // Show success message
-        alert('Terima kasih! Pesan Anda telah terkirim.\n\nNama: ' + name + '\nEmail: ' + email + '\nPesan: ' + message);
-        contactForm.reset();
-    } else {
+    // Validation
+    if (!userName || !userEmail || !message) {
         alert('Mohon isi semua field yang diperlukan.');
+        return;
     }
+
+    // Show loading state
+    const submitBtn = contactForm.querySelector('.submit-btn');
+    const originalText = submitBtn.textContent;
+    submitBtn.textContent = 'Sedang mengirim...';
+    submitBtn.disabled = true;
+
+    // Prepare email parameters
+    const templateParams = {
+        to_email: 'naufalzul45@gmail.com',
+        from_email: userEmail,
+        user_name: userName,
+        message: message,
+        reply_to: userEmail
+    };
+
+    // Send email using EmailJS
+    emailjs.send('service_YOUR_SERVICE_ID', 'template_YOUR_TEMPLATE_ID', templateParams)
+        .then(function(response) {
+            // Success
+            console.log('Email sent successfully!', response);
+            alert('✅ Terima kasih! Pesan Anda telah terkirim ke naufalzul45@gmail.com\n\nNama: ' + userName + '\nEmail: ' + userEmail + '\n\nSaya akan meresponnya secepatnya.');
+            contactForm.reset();
+            submitBtn.textContent = originalText;
+            submitBtn.disabled = false;
+        }, function(error) {
+            // Error
+            console.error('Failed to send email:', error);
+            alert('❌ Terjadi kesalahan saat mengirim pesan. Silakan coba lagi.\n\nError: ' + JSON.stringify(error));
+            submitBtn.textContent = originalText;
+            submitBtn.disabled = false;
+        });
 });
 
 // Smooth scroll for navigation links
@@ -207,7 +243,7 @@ const createScrollProgressBar = () => {
     progressBar.style.top = '0';
     progressBar.style.left = '0';
     progressBar.style.height = '3px';
-    progressBar.style.background = 'linear-gradient(90deg, #6366f1, #ec4899)';
+    progressBar.style.background = 'linear-gradient(90deg, #0ea5e9, #0284c7)';
     progressBar.style.zIndex = '999';
     document.body.appendChild(progressBar);
 
