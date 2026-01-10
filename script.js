@@ -222,10 +222,10 @@ const createScrollProgressBar = () => {
 createScrollProgressBar();
 
 // Add hover effects to portfolio items
-const portfolioItems = document.querySelectorAll('.portfolio-item');
-portfolioItems.forEach(item => {
+const portfolioItemsHover = document.querySelectorAll('.portfolio-item');
+portfolioItemsHover.forEach(item => {
     item.addEventListener('mouseenter', function() {
-        portfolioItems.forEach(i => {
+        portfolioItemsHover.forEach(i => {
             if (i !== this) {
                 i.style.opacity = '0.6';
             }
@@ -233,7 +233,7 @@ portfolioItems.forEach(item => {
     });
 
     item.addEventListener('mouseleave', function() {
-        portfolioItems.forEach(i => {
+        portfolioItemsHover.forEach(i => {
             i.style.opacity = '1';
         });
     });
