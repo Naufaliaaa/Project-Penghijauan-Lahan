@@ -129,14 +129,14 @@ contactForm.addEventListener('submit', function(e) {
         .then(function(response) {
             // Success
             console.log('Email sent successfully!', response);
-            alert('✅ Terima kasih! Pesan Anda telah terkirim ke naufalzul45@gmail.com\n\nNama: ' + userName + '\nEmail: ' + userEmail + '\n\nSaya akan meresponnya secepatnya.');
+            alert('Pesan anda berhasil di kirim');
             contactForm.reset();
             submitBtn.textContent = originalText;
             submitBtn.disabled = false;
         }, function(error) {
             // Error
             console.error('Failed to send email:', error);
-            alert('❌ Terjadi kesalahan saat mengirim pesan. Silakan coba lagi.\n\nError: ' + JSON.stringify(error));
+            alert('Pesan Anda Gagal dikirim');
             submitBtn.textContent = originalText;
             submitBtn.disabled = false;
         });
