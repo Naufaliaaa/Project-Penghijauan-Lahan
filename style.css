@@ -282,6 +282,8 @@ body {
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
     border: 5px solid white;
     animation: rotateIn 0.8s ease-out;
+    /* Filter untuk foto natural dan bersih */
+    filter: saturate(1.1) sepia(0.05) contrast(1.1) brightness(1.0);
 }
 
 @keyframes rotateIn {
@@ -366,6 +368,8 @@ body {
     object-fit: cover;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
     animation: slideInLeft 0.8s ease-out;
+    /* Filter untuk foto natural dan bersih */
+    filter: saturate(1.1) sepia(0.05) contrast(1.1) brightness(1.0);
 }
 
 @keyframes slideInLeft {
