@@ -1,60 +1,40 @@
-# Todo List - Perbaikan Hamburger Menu iPad/Mobile
+# TODO - Portfolio Redesign
 
-## Masalah
-Hamburger menu tidak berfungsi pada mode iPad dan mobile.
+## Phase 1: CSS Redesign
+- [ ] Create modern color palette and CSS variables
+- [ ] Implement glassmorphism effects
+- [ ] Redesign hero section with animated gradient
+- [ ] Redesign about section with card layout
+- [ ] Redesign experience section with animated timeline
+- [ ] Redesign portfolio section with masonry grid
+- [ ] Redesign contact section with glassmorphism
+- [ ] Add scroll animations and transitions
+- [ ] Responsive design improvements
 
-## Perbaikan yang Dilakukan ✓
+## Phase 2: HTML Structure Updates
+- [ ] Update hero section structure
+- [ ] Update about section with new containers
+- [ ] Update experience section with timeline cards
+- [ ] Update portfolio section with lightbox modal
+- [ ] Add new decorative elements
 
-### Perubahan di `style.css`:
+## Phase 3: JavaScript Enhancements
+- [ ] Implement scroll reveal animations
+- [ ] Add lightbox for portfolio images
+- [ ] Enhanced smooth scrolling
+- [ ] Add counter animations
+- [ ] Parallax effects
 
-1. **Menambahkan breakpoint iPad/Tablet (769px - 1024px)** ✓
-   - Hamburger menu ditampilkan dengan `display: flex !important`
-   - z-index ditambahkan agar tidak tertutup elemen lain
-   - Animasi transformasi X saat diklik
+## Phase 4: Testing & Polish
+- [ ] Test responsive design
+- [ ] Test animations and transitions
+- [ ] Fix any visual issues
+- [ ] Verify cross-browser compatibility
 
-2. **Memperbaiki Mobile Styles (max-width: 768px)** ✓
-   - Styling hamburger menu diperkuat dengan `!important`
-   - z-index dan positioning yang benar
-   - Animasi transisi menjadi X
-
-3. **Menambahkan Nav Container Styles** ✓
-   - Padding dan styling untuk area click hamburger
-   - Background dan box-shadow agar mudah terlihat
-
-4. **Perbaikan Nav Menu** ✓
-   - z-index: 1000 agar di atas konten lain
-   - box-shadow untuk tampilan
-   - Padding dan border untuk item menu
-
-### Perubahan Utama:
-```css
-/* Contoh perbaikan */
-.hamburger {
-    display: flex !important;
-    z-index: 1001;
-    position: relative;
-}
-
-.nav-menu {
-    position: fixed;
-    left: -100%;
-    top: 70px;
-    z-index: 1000;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-}
-```
-
-## Status
-✅ **PERBAIKAN SELESAI** - Hamburger menu sekarang seharusnya berfungsi
-
-## Cara Testing
-1. Buka website di browser
-2. Resize browser ke:
-   - **Mobile**: ≤768px
-   - **iPad/Tablet**: 769px - 1024px
-3. Klik hamburger menu untuk membuka menu
-4. Klik menu item untuk menavigasi
-
----
-*Terakhir diupdate: Hari ini*
+## Design Specifications
+- **Primary Colors**: Gradient from #667eea to #764ba2 (purple-blue)
+- **Accent Colors**: #f093fb to #f5576c (coral-pink)
+- **Glassmorphism**: backdrop-filter: blur(10px), rgba(255,255,255,0.1)
+- **Typography**: Poppins for headings, Inter for body text
+- **Animations**: Ease-out cubic-bezier for smooth transitions
 
