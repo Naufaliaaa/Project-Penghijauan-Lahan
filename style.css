@@ -909,7 +909,81 @@ body {
     box-shadow: 0 10px 30px rgba(99, 102, 241, 0.6);
 }
 
-/* Responsive Design */
+/* iPad/Tablet Styles (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        flex-direction: column;
+        background: white;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        gap: 0;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .hero-content {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+    }
+
+    .profile-img {
+        width: 250px;
+        height: 350px;
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+    }
+
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .experience-timeline::before {
+        left: 20px;
+    }
+
+    .timeline-item:nth-child(odd),
+    .timeline-item:nth-child(even) {
+        padding-left: 60px;
+        text-align: left;
+    }
+
+    .timeline-marker {
+        left: 20px;
+        transform: none;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .footer-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile Styles (max-width: 768px) */
 @media (max-width: 768px) {
     .nav-menu {
         position: fixed;
