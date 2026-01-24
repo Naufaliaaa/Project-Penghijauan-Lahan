@@ -737,6 +737,14 @@ body {
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
 }
 
+.contact .section-title {
+    color: white;
+    background: none;
+    -webkit-background-clip: initial;
+    -webkit-text-fill-color: initial;
+    background-clip: initial;
+}
+
 .contact-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
