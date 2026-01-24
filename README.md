@@ -1,235 +1,235 @@
-# 🎯 Portfolio Profesional Naufal
+# 🎯 Naufalのプロフェッショナルポートフォリオ
 
-Sebuah website portfolio modern dan responsif yang menampilkan pengalaman profesional, galeri pengalaman kerja, dan informasi kontak. Website ini dibangun dengan teknologi terkini dan dilengkapi dengan animasi yang menawan serta interface yang intuitif.
+プロフェッショナルな経験、仕事経験のギャラリー、連絡先情報を表示するモダンでレスポンシブなポートフォリオウェブサイト。最新のテクノロジーで構築され、魅力的なアニメーションと直感的なインターフェースを備えています。
 
-## 📋 Daftar Isi
+## 📋 目次
 
-- [Fitur Utama](#fitur-utama)
-- [Teknologi yang Digunakan](#teknologi-yang-digunakan)
-- [Struktur Proyek](#struktur-proyek)
-- [Instalasi & Penggunaan](#instalasi--penggunaan)
-- [Fitur Responsif](#fitur-responsif)
-- [Kontak](#kontak)
+- [主な機能](#主な機能)
+- [使用テクノロジー](#使用テクノロジー)
+- [プロジェクト構造](#プロジェクト構造)
+- [インストールと使用](#インストールと使用)
+- [レスポンシブ機能](#レスポンシブ機能)
+- [連絡先](#連絡先)
 
 ---
 
-## ✨ Fitur Utama
+## ✨ 主な機能
 
-### 🏠 Halaman Utama (Hero Section)
-- Landing page dengan gradien gradient yang menarik
-- Foto profil floating dengan efek glow yang dinamis
-- Call-to-action button yang responsif
-- Efek particle background yang interaktif
-- Animasi teks yang smooth dan engaging
+### 🏠 ホームページ (Hero Section)
+- 魅力的なグラデーションのランディングページ
+- ダイナミックなグロー効果のフローティングプロフィール写真
+- レスポンシブなコールトゥアクションボタン
+- インタラクティブなパーティクル背景効果
+- スムーズで魅力的なテキストアニメーション
 
-### 👤 Tentang Saya (About Section)
-- Profil profesional lengkap
-- Foto formal dengan dekorasi animasi
-- Skill bars dengan animasi pengisian otomatis
-- Deskripsi pengalaman dan passion profesional
-- Layout responsif dengan grid system
+### 👤 私について (About Section)
+- 完全なプロフェッショナルプロフィール
+- アニメーション装飾付きのフォーマル写真
+- 自動充填アニメーション付きのスキルバー
+- 経験とプロフェッショナルな情熱の説明
+- グリッドシステムによるレスポンシブレイアウト
 
-### 💼 Pengalaman Kerja (Experience Timeline)
-- Timeline vertikal interaktif dengan 3 pengalaman utama:
-  - **Magang Dinas Komunikasi dan Informatika** - Komunikasi digital dan manajemen data
-  - **Magang Kementerian Perhubungan** - Proyek strategis transportasi dan logistik
-  - **Program Pelatihan Google** - Pengembangan skill digital dan kepemimpinan
-- Marker timeline yang animated
-- Experience cards dengan hover effect
-- Tag/badge untuk setiap pengalaman
+### 💼 仕事経験 (Experience Timeline)
+- 3つの主な経験を持つインタラクティブな垂直タイムライン：
+  - **通信・情報省インターン** - デジタルコミュニケーションとデータ管理
+  - **運輸省インターン** - 輸送とロジスティクスの戦略プロジェクト
+  - **Googleトレーニングプログラム** - デジタルスキルとリーダーシップ開発
+- アニメーション付きタイムラインマーカー
+- ホバー効果付きの経験カード
+- 各経験のタグ/バッジ
 
-### 🖼️ Galeri Portfolio (Portfolio Section)
-- Grid gallery dengan 4 foto pengalaman kerja
-- Filter kategori interaktif (Semua, Diskominfo, Kementerian Perhubungan, Google)
-- Overlay gradient dengan informasi pada hover
-- Animasi scale dan opacity effect
-- Lazy loading untuk optimasi performa
+### 🖼️ ポートフォリオギャラリー (Portfolio Section)
+- 4つの仕事経験写真のグリッドギャラリー
+- インタラクティブなカテゴリフィルター (すべて、Diskominfo、運輸省、Google)
+- ホバー時の情報付きグラデーションオーバーレイ
+- スケールと不透明度効果のアニメーション
+- パフォーマンス最適化のためのレイジーローディング
 
-### 📧 Hubungi Saya (Contact Section)
-- Formulir kontak yang fully functional
-- Informasi kontak lengkap:
+### 📧 お問い合わせ (Contact Section)
+- 完全に機能するお問い合わせフォーム
+- 完全な連絡先情報：
   - Email: naufalzul45@gmail.com
-  - Telepon: +62 83829586688
-  - Lokasi: Bandung Jawa Barat Indonesia
-- Form validation yang baik
-- Success message notification
+  - 電話: +62 83829586688
+  - 場所: インドネシア西ジャワ州バンドゥン
+- 優れたフォーム検証
+- 成功メッセージ通知
 
-### 📱 Footer
-- Social media links (LinkedIn, GitHub, Facebook, Instagram)
-- Quick links navigation
-- Informasi copyright
-- Responsive layout
+### 📱 フッター
+- ソーシャルメディアリンク (LinkedIn, GitHub, Facebook, Instagram)
+- クイックリンクナビゲーション
+- 著作権情報
+- レスポンシブレイアウト
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## 🛠️ 使用テクノロジー
 
 ### Frontend Technologies
 
 #### **HTML5**
-- Semantic HTML structure
-- Accessibility best practices
-- Meta tags untuk SEO optimization
-- Font Awesome Icons integration
+- セマンティックHTML構造
+- アクセシビリティベストプラクティス
+- SEO最適化のためのメタタグ
+- Font Awesomeアイコン統合
 
 #### **CSS3**
-- Modern CSS Grid & Flexbox layouts
-- CSS Custom Properties (Variables)
-- Gradient backgrounds dan effects
-- Keyframe animations
-- Backdrop filters & blur effects
-- Box shadows untuk depth
-- Responsive design dengan media queries
-- Mobile-first approach
-- Smooth transitions dan timing functions
+- モダンなCSS Grid & Flexboxレイアウト
+- CSSカスタムプロパティ (変数)
+- グラデーション背景と効果
+- キーフレームアニメーション
+- バックドロップフィルターとブラー効果
+- 深度のためのボックスシャドウ
+- メディアクエリによるレスポンシブデザイン
+- モバイルファーストアプローチ
+- スムーズなトランジションとタイミング関数
 
 #### **JavaScript (Vanilla)**
-- DOM manipulation & event listeners
-- Intersection Observer API untuk lazy loading
-- Smooth scroll behavior
-- Form validation & submission handling
-- Dynamic element creation
-- Animation triggers
-- Mobile menu toggle functionality
-- Parallax effects
-- Scroll progress indicator
-- Active navigation link indicator
+- DOM操作とイベントリスナー
+- レイジーローディングのためのIntersection Observer API
+- スムーズスクロール動作
+- フォーム検証と送信処理
+- ダイナミック要素作成
+- アニメーショントリガー
+- モバイルメニュートグル機能
+- パララックス効果
+- スクロールプログレスインジケーター
+- アクティブナビゲーションリンクインジケーター
 
 ### UI/UX Libraries
 
 #### **Font Awesome 6.4.0**
-- Icon library untuk social media, contact, dan navigation
-- CDN-based integration
+- ソーシャルメディア、連絡先、ナビゲーションのためのアイコンライブラリ
+- CDNベース統合
 
 ### Design Patterns
 
-- **Responsive Design**: Breakpoints di 768px dan 480px
-- **Mobile-First Approach**: Development dimulai dari mobile
-- **Component-Based Structure**: Sections yang modular dan reusable
-- **Performance Optimization**: Lazy loading images, optimized animations
-- **Accessibility**: Semantic HTML, proper contrast ratios
+- **レスポンシブデザイン**: 768pxと480pxのブレークポイント
+- **モバイルファーストアプローチ**: モバイルから開発開始
+- **コンポーネントベース構造**: モジュラーで再利用可能なセクション
+- **パフォーマンス最適化**: レイジーローディング画像、最適化アニメーション
+- **アクセシビリティ**: セマンティックHTML、適切なコントラスト比
 
 ---
 
-## 📁 Struktur Proyek
+## 📁 プロジェクト構造
 
 ```
 Lahan Penghijauan/
-├── index.html          # Halaman HTML utama
-├── style.css           # Stylesheet dengan animasi & responsive design
-├── script.js           # JavaScript untuk interaktivitas
-├── README.md           # Dokumentasi proyek (file ini)
-└── img/                # Folder berisi aset gambar
+├── index.html          # メインHTMLページ
+├── style.css           # アニメーションとレスポンシブデザインのスタイルシート
+├── script.js           # インタラクティビティのためのJavaScript
+├── README.md           # プロジェクトドキュメント (このファイル)
+└── img/                # 画像アセットを含むフォルダ
     ├── foto-formal.jpg
     ├── foto-diskominfo.jpeg
-    ├── foto-KementrianPerhubungan1.jpeg
-    ├── foto-KementrianPerhubungan2.jpeg
+    ├── foto-KementerianPerhubungan1.jpeg
+    ├── foto-KementerianPerhubungan2.jpeg
     └── foto-google.jpeg
 ```
 
 ---
 
-## 🚀 Instalasi & Penggunaan
+## 🚀 インストールと使用
 
-### Persyaratan
-- Browser modern (Chrome, Firefox, Safari, Edge)
-- Koneksi internet untuk CDN resources (Font Awesome)
+### 要件
+- モダンブラウザ (Chrome, Firefox, Safari, Edge)
+- CDNリソース (Font Awesome) のためのインターネット接続
 
-### Langkah-Langkah
+### ステップ
 
-1. **Clone atau Download Proyek**
+1. **プロジェクトのクローンまたはダウンロード**
    ```bash
    git clone <repository-url>
    cd Lahan\ Penghijauan
    ```
 
-2. **Buka File HTML**
-   - Buka `index.html` langsung di browser
-   - Atau gunakan Live Server extension di VS Code
+2. **HTMLファイルを開く**
+   - ブラウザで直接 `index.html` を開く
+   - またはVS CodeでLive Server拡張を使用
    ```bash
-   # Jika menggunakan Live Server
-   # Right-click index.html → Open with Live Server
+   # Live Serverを使用する場合
+   # index.html を右クリック → Open with Live Server
    ```
 
-3. **Testing**
-   - Cek semua section bekerja dengan baik
-   - Test responsive design di berbagai ukuran layar
-   - Verifikasi semua animasi berjalan smooth
+3. **テスト**
+   - すべてのセクションが正常に動作することを確認
+   - さまざまな画面サイズでレスポンシブデザインをテスト
+   - すべてのアニメーションがスムーズに動作することを確認
 
-### Development Server (Optional)
-Untuk development lebih baik, gunakan Live Server atau alternatif:
+### 開発サーバー (オプション)
+開発に適したLive Serverまたは代替を使用：
 
 ```bash
 # Python 3
 python -m http.server 8000
 
-# Node.js dengan http-server
+# Node.js with http-server
 npx http-server
 ```
 
-Kemudian buka `http://localhost:8000` di browser.
+次にブラウザで `http://localhost:8000` を開く。
 
 ---
 
-## 📱 Fitur Responsif
+## 📱 レスポンシブ機能
 
-### Breakpoints
-- **Desktop**: > 768px (full layout)
-- **Tablet**: 481px - 768px (adjusted grid)
-- **Mobile**: < 480px (single column)
+### ブレークポイント
+- **デスクトップ**: > 768px (フルレイアウト)
+- **タブレット**: 481px - 768px (調整グリッド)
+- **モバイル**: < 480px (シングルカラム)
 
-### Responsive Elements
-- ✅ Hamburger menu untuk mobile
-- ✅ Grid layouts yang adaptive
-- ✅ Font sizes yang scalable
-- ✅ Touch-friendly buttons dan links
-- ✅ Optimized images untuk berbagai devices
-- ✅ Smooth scrolling di semua browser
-
----
-
-## 🎨 Animasi & Effects
-
-### Animasi Utama
-- `fadeInUp` - Fade in dengan translasi ke atas
-- `float` - Floating effect untuk hero image
-- `pulse` - Pulse effect untuk glow
-- `slideDown` - Navbar slide down animation
-- `bounce` - Logo bounce effect
-- `scaleIn` - Scale in animation
-- `slideInLeft` & `slideInRight` - Directional slide animations
-- `fillBar` - Skill bar fill animation
-
-### Interactive Effects
-- Hover effects pada cards dan buttons
-- Smooth transitions pada all interactive elements
-- Parallax scrolling effect
-- Progress bar indicator saat scroll
-- Dynamic particle effects di hero section
+### レスポンシブ要素
+- ✅ モバイル用ハンバーガーメニュー
+- ✅ アダプティブグリッドレイアウト
+- ✅ スケーラブルフォントサイズ
+- ✅ タッチフレンドリーボタンとリンク
+- ✅ さまざまなデバイス向け最適化画像
+- ✅ すべてのブラウザでのスムーズスクロール
 
 ---
 
-## 📊 Performance
+## 🎨 アニメーションと効果
 
-### Optimization Techniques
-- Lazy loading untuk images menggunakan Intersection Observer
-- CSS animations menggunakan GPU acceleration
-- Minimized repaints dan reflows
-- Efficient event delegation
-- Debounced scroll events (untuk beberapa browsers)
+### 主なアニメーション
+- `fadeInUp` - 上への翻訳付きフェードイン
+- `float` - ヒーロー画像のフローティング効果
+- `pulse` - グロー用のパルス効果
+- `slideDown` - ナビゲーションバーのスライドダウンアニメーション
+- `bounce` - ロゴバウンス効果
+- `scaleIn` - スケインアニメーション
+- `slideInLeft` & `slideInRight` - 方向スライドアニメーション
+- `fillBar` - スキルバーフィルアニメーション
 
-### Browser Support
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
+### インタラクティブ効果
+- カードとボタンのホバー効果
+- すべてのインタラクティブ要素のスムーズトランジション
+- パララックススクロール効果
+- スクロール時のプログレスバーインジケーター
+- ヒーローセクションのダイナミックパーティクル効果
 
 ---
 
-## 🔧 Kustomisasi
+## 📊 パフォーマンス
 
-### Mengubah Warna Tema
-Edit CSS Variables di `style.css`:
+### 最適化テクニック
+- Intersection Observerを使用した画像のレイジーローディング
+- GPUアクセラレーションを使用したCSSアニメーション
+- 最小化されたリペイントとリフロー
+- 効率的なイベントデリゲーション
+- デバウンススクロールイベント (一部のブラウザ向け)
+
+### ブラウザサポート
+- Chrome (最新)
+- Firefox (最新)
+- Safari (最新)
+- Edge (最新)
+
+---
+
+## 🔧 カスタマイズ
+
+### テーマカラーの変更
+`style.css` のCSS変数を編集：
 ```css
 :root {
     --primary-color: #6366f1;
@@ -241,58 +241,58 @@ Edit CSS Variables di `style.css`:
 }
 ```
 
-### Menambah Section Baru
-1. Tambahkan HTML di `index.html`
-2. Tambahkan CSS styling di `style.css`
-3. Tambahkan JavaScript interaktivity di `script.js` (jika diperlukan)
+### 新しいセクションの追加
+1. `index.html` にHTMLを追加
+2. `style.css` にCSSスタイリングを追加
+3. `script.js` にJavaScriptインタラクティビティを追加 (必要に応じて)
 
-### Update Konten
-- Ganti teks di `index.html`
-- Update foto di folder `img/`
-- Sesuaikan informasi kontak di section Contact
+### コンテンツの更新
+- `index.html` のテキストを変更
+- `img/` フォルダの写真を更新
+- Contactセクションの連絡先情報を調整
 
 ---
 
-## 📞 Kontak & Informasi
+## 📞 連絡先と情報
 
 - **Email**: naufalzul45@gmail.com
-- **Telepon**: +62 83829586688
-- **Lokasi**: Bandung Jawa Barat Indonesia
-- **Social Media**: LinkedIn, GitHub, Facebook, Instagram
+- **電話**: +62 83829586688
+- **場所**: インドネシア西ジャワ州バンドゥン
+- **ソーシャルメディア**: LinkedIn, GitHub, Facebook, Instagram
 
 ---
 
-## 📝 Lisensi
+## 📝 ライセンス
 
-Portfolio ini dibuat untuk keperluan profesional pribadi. Silakan gunakan sebagai referensi untuk project Anda sendiri.
-
----
-
-## 🎯 Roadmap Fitur Masa Depan
-
-- [ ] Backend integration untuk form submission
-- [ ] Blog section untuk artikel
-- [ ] Project showcase dengan detail
-- [ ] Dark mode toggle
-- [ ] Multilingual support (Indonesia & English)
-- [ ] PDF resume download
-- [ ] Testimonials section
-- [ ] Services section
+このポートフォリオは個人的なプロフェッショナル目的で作成されました。自分のプロジェクトの参考として使用してください。
 
 ---
 
-## 📄 Changelog
+## 🎯 将来の機能ロードマップ
+
+- [ ] フォーム送信のためのバックエンド統合
+- [ ] 記事のためのブログセクション
+- [ ] 詳細付きプロジェクトショーケース
+- [ ] ダークモードトグル
+- [ ] 多言語サポート (インドネシア語と英語)
+- [ ] PDF履歴書ダウンロード
+- [ ] 推薦文セクション
+- [ ] サービスセクション
+
+---
+
+## 📄 変更履歴
 
 ### Version 1.0 (Current)
-- ✅ Initial release
-- ✅ Complete responsive design
-- ✅ Smooth animations & effects
-- ✅ Contact information updated
-- ✅ Social media links (LinkedIn, GitHub, Facebook, Instagram)
-- ✅ Professional documentation
+- ✅ 初期リリース
+- ✅ 完全レスポンシブデザイン
+- ✅ スムーズアニメーションと効果
+- ✅ 連絡先情報更新
+- ✅ ソーシャルメディアリンク (LinkedIn, GitHub, Facebook, Instagram)
+- ✅ プロフェッショナルドキュメント
 
 ---
 
-**Dibuat dengan ❤️ menggunakan HTML5, CSS3, dan Vanilla JavaScript**
+**❤️ HTML5、CSS3、バニラJavaScriptを使用して作成**
 
-*Last Updated: January 10, 2026*
+*最終更新: 2026年1月10日*
