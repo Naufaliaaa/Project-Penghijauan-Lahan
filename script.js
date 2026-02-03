@@ -105,14 +105,14 @@ contactForm.addEventListener('submit', function(e) {
 
     // Validation
     if (!userName || !userEmail || !message) {
-        alert('Mohon isi semua field yang diperlukan.');
+        alert('กรุณากรอกข้อมูลในช่องที่จำเป็นทั้งหมด');
         return;
     }
 
     // Show loading state
     const submitBtn = contactForm.querySelector('.submit-btn');
     const originalText = submitBtn.textContent;
-    submitBtn.textContent = 'Sedang mengirim...';
+    submitBtn.textContent = 'กำลังส่ง...';
     submitBtn.disabled = true;
 
     // Prepare email parameters
@@ -129,14 +129,14 @@ contactForm.addEventListener('submit', function(e) {
         .then(function(response) {
             // Success
             console.log('Email sent successfully!', response);
-            alert('Pesan anda berhasil di kirim');
+            alert('ส่งข้อความสำเร็จ');
             contactForm.reset();
             submitBtn.textContent = originalText;
             submitBtn.disabled = false;
         }, function(error) {
             // Error
             console.error('Failed to send email:', error);
-            alert('Pesan Anda Gagal dikirim');
+            alert('ไม่สามารถส่งข้อความได้');
             submitBtn.textContent = originalText;
             submitBtn.disabled = false;
         });
