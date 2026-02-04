@@ -1,7 +1,7 @@
 // Initialize EmailJS
 (function() {
     emailjs.init({
-        publicKey: "YOUR_PUBLIC_KEY_HERE" // Ganti dengan public key Anda nanti
+        publicKey: "YOUR_PUBLIC_KEY_HERE" // 请在此处替换为您的公钥
     });
 })();
 
@@ -105,14 +105,14 @@ contactForm.addEventListener('submit', function(e) {
 
     // Validation
     if (!userName || !userEmail || !message) {
-        alert('กรุณากรอกข้อมูลในช่องที่จำเป็นทั้งหมด');
+        alert('请填写所有必填项');
         return;
     }
 
     // Show loading state
     const submitBtn = contactForm.querySelector('.submit-btn');
     const originalText = submitBtn.textContent;
-    submitBtn.textContent = 'กำลังส่ง...';
+    submitBtn.textContent = '发送中...';
     submitBtn.disabled = true;
 
     // Prepare email parameters
@@ -128,15 +128,15 @@ contactForm.addEventListener('submit', function(e) {
     emailjs.send('service_YOUR_SERVICE_ID', 'template_YOUR_TEMPLATE_ID', templateParams)
         .then(function(response) {
             // Success
-            console.log('Email sent successfully!', response);
-            alert('ส่งข้อความสำเร็จ');
+            console.log('邮件发送成功！', response);
+            alert('留言发送成功');
             contactForm.reset();
             submitBtn.textContent = originalText;
             submitBtn.disabled = false;
         }, function(error) {
             // Error
-            console.error('Failed to send email:', error);
-            alert('ไม่สามารถส่งข้อความได้');
+            console.error('邮件发送失败：', error);
+            alert('无法发送留言');
             submitBtn.textContent = originalText;
             submitBtn.disabled = false;
         });
@@ -321,4 +321,5 @@ window.addEventListener('scroll', () => {
     });
 });
 
-console.log('Portfolio website loaded successfully!');
+console.log('作品集网站加载成功！');
+
