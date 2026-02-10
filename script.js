@@ -1,7 +1,7 @@
 // Initialize EmailJS
 (function() {
     emailjs.init({
-        publicKey: "YOUR_PUBLIC_KEY_HERE" // 请在此处替换为您的公钥
+        publicKey: "YOUR_PUBLIC_KEY_HERE" // Silakan ganti dengan kunci publik Anda di sini
     });
 })();
 
@@ -10,13 +10,13 @@ const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
 const navLinks = document.querySelectorAll('.nav-link');
 
-// Hamburger menu functionality
+// Fungsi menu hamburger
 hamburger.addEventListener('click', () => {
     navMenu.classList.toggle('active');
     hamburger.classList.toggle('active');
 });
 
-// Close menu when clicking on a link
+// Tutup menu saat mengklik tautan
 navLinks.forEach(link => {
     link.addEventListener('click', () => {
         navMenu.classList.remove('active');
@@ -24,7 +24,7 @@ navLinks.forEach(link => {
     });
 });
 
-// Scroll to Top Button
+// Tombol Scroll ke Atas
 const scrollTopBtn = document.createElement('button');
 scrollTopBtn.className = 'scroll-top';
 scrollTopBtn.innerHTML = '<i class="fas fa-arrow-up"></i>';
@@ -45,7 +45,7 @@ scrollTopBtn.addEventListener('click', () => {
     });
 });
 
-// Intersection Observer for animations
+// Intersection Observer untuk animasi
 const observerOptions = {
     threshold: 0.1,
     rootMargin: '0px 0px -100px 0px'
@@ -60,7 +60,7 @@ const observer = new IntersectionObserver((entries) => {
     });
 }, observerOptions);
 
-// Observe all sections
+// Amati semua bagian
 document.querySelectorAll('section').forEach(section => {
     section.style.opacity = '0';
     section.style.transform = 'translateY(20px)';
@@ -68,15 +68,15 @@ document.querySelectorAll('section').forEach(section => {
     observer.observe(section);
 });
 
-// Portfolio Filter Functionality
+// Fungsi Filter Portofolio
 const filterBtns = document.querySelectorAll('.filter-btn');
 const portfolioItems = document.querySelectorAll('.portfolio-item');
 
 filterBtns.forEach(btn => {
     btn.addEventListener('click', () => {
-        // Remove active class from all buttons
+        // Hapus kelas aktif dari semua tombol
         filterBtns.forEach(b => b.classList.remove('active'));
-        // Add active class to clicked button
+        // Tambahkan kelas aktif ke tombol yang diklik
         btn.classList.add('active');
 
         const filterValue = btn.getAttribute('data-filter');
@@ -92,30 +92,30 @@ filterBtns.forEach(btn => {
     });
 });
 
-// Form Validation and Submission with EmailJS
+// Validasi Formulir dan Pengiriman dengan EmailJS
 const contactForm = document.getElementById('contactForm');
 
 contactForm.addEventListener('submit', function(e) {
     e.preventDefault();
 
-    // Get form values
+    // Dapatkan nilai formulir
     const userName = document.getElementById('user_name').value.trim();
     const userEmail = document.getElementById('user_email').value.trim();
     const message = document.getElementById('message').value.trim();
 
-    // Validation
+    // Validasi
     if (!userName || !userEmail || !message) {
-        alert('请填写所有必填项');
+        alert('Harap isi semua kolom yang wajib diisi');
         return;
     }
 
-    // Show loading state
+    // Tampilkan status loading
     const submitBtn = contactForm.querySelector('.submit-btn');
     const originalText = submitBtn.textContent;
-    submitBtn.textContent = '发送中...';
+    submitBtn.textContent = 'Mengirim...';
     submitBtn.disabled = true;
 
-    // Prepare email parameters
+    // Siapkan parameter email
     const templateParams = {
         to_email: 'naufalzul45@gmail.com',
         from_email: userEmail,
@@ -124,25 +124,25 @@ contactForm.addEventListener('submit', function(e) {
         reply_to: userEmail
     };
 
-    // Send email using EmailJS
+    // Kirim email menggunakan EmailJS
     emailjs.send('service_YOUR_SERVICE_ID', 'template_YOUR_TEMPLATE_ID', templateParams)
         .then(function(response) {
-            // Success
-            console.log('邮件发送成功！', response);
-            alert('留言发送成功');
+            // Berhasil
+            console.log('Email berhasil terkirim!', response);
+            alert('Pesan berhasil terkirim');
             contactForm.reset();
             submitBtn.textContent = originalText;
             submitBtn.disabled = false;
         }, function(error) {
-            // Error
-            console.error('邮件发送失败：', error);
-            alert('无法发送留言');
+            // Gagal
+            console.error('Pengiriman email gagal:', error);
+            alert('Tidak dapat mengirim pesan');
             submitBtn.textContent = originalText;
             submitBtn.disabled = false;
         });
 });
 
-// Smooth scroll for navigation links
+// Gulir halus untuk tautan navigasi
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -156,7 +156,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Parallax effect for hero section
+// Efek paralaks untuk bagian hero
 window.addEventListener('scroll', () => {
     const scrolled = window.pageYOffset;
     const hero = document.querySelector('.hero');
@@ -165,7 +165,7 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Add animation class on scroll
+// Tambahkan animasi saat menggulir
 const animateOnScroll = () => {
     const elements = document.querySelectorAll('[class*="animate"]');
     elements.forEach(element => {
@@ -180,7 +180,7 @@ const animateOnScroll = () => {
 
 window.addEventListener('scroll', animateOnScroll);
 
-// Counter animation for statistics
+// Animasi penghitung untuk statistik
 const animateCounters = () => {
     const counters = document.querySelectorAll('.counter');
     const speed = 200;
@@ -204,7 +204,7 @@ const animateCounters = () => {
     });
 };
 
-// Add dynamic particle effect
+// Tambahkan efek partikel dinamis
 const createParticles = () => {
     const hero = document.querySelector('.hero');
     for (let i = 0; i < 50; i++) {
@@ -222,7 +222,7 @@ const createParticles = () => {
     }
 };
 
-// Keyboard navigation
+// Navigasi keyboard
 document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
         navMenu.classList.remove('active');
@@ -230,13 +230,13 @@ document.addEventListener('keydown', (e) => {
     }
 });
 
-// Initialize animations on page load
+// Inisialisasi animasi saat halaman dimuat
 window.addEventListener('load', () => {
     animateOnScroll();
     createParticles();
 });
 
-// Add scroll progress indicator
+// Tambahkan indikator progres gulir
 const createScrollProgressBar = () => {
     const progressBar = document.createElement('div');
     progressBar.style.position = 'fixed';
@@ -257,7 +257,7 @@ const createScrollProgressBar = () => {
 
 createScrollProgressBar();
 
-// Add hover effects to portfolio items
+// Tambahkan efek hover ke item portofolio
 const portfolioItemsHover = document.querySelectorAll('.portfolio-item');
 portfolioItemsHover.forEach(item => {
     item.addEventListener('mouseenter', function() {
@@ -275,7 +275,7 @@ portfolioItemsHover.forEach(item => {
     });
 });
 
-// Navbar shadow on scroll
+// Navbar shadow saat menggulir
 window.addEventListener('scroll', () => {
     const navbar = document.querySelector('.navbar');
     if (window.scrollY > 50) {
@@ -285,7 +285,7 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Lazy loading for images
+// Lazy loading untuk gambar
 const images = document.querySelectorAll('img');
 const imageObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
@@ -299,7 +299,7 @@ const imageObserver = new IntersectionObserver((entries) => {
 
 images.forEach(img => imageObserver.observe(img));
 
-// Active nav link indicator
+// Indikator tautan navigasi aktif
 window.addEventListener('scroll', () => {
     const sections = document.querySelectorAll('section');
     const navLinks = document.querySelectorAll('.nav-link');
@@ -321,5 +321,5 @@ window.addEventListener('scroll', () => {
     });
 });
 
-console.log('作品集网站加载成功！');
+console.log('Website portofolio berhasil dimuat!');
 

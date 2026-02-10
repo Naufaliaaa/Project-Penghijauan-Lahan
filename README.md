@@ -1,125 +1,125 @@
-# 🎯 诺法尔专业作品集
+# 🎯 Portofolio Naufal
 
-一个现代化、响应式的个人作品集网站，展示专业经验、工作经历画廊和联系信息。采用最新技术构建，具有引人入胜的动画和直观的界面。
+Website portofolio personal yang modern dan responsif, yang menampilkan pengalaman profesional, galeri pekerjaan, dan informasi kontak. Dibangun dengan teknologi terbaru, memiliki animasi menarik dan antarmuka yang intuitif.
 
-## 📋 目录
+## 📋 Daftar Isi
 
-- [主要功能](#主要功能)
-- [使用技术](#使用技术)
-- [项目结构](#项目结构)
-- [安装和使用](#安装和使用)
-- [响应式功能](#响应式功能)
-- [联系方式](#联系方式)
-
----
-
-## ✨ 主要功能
-
-### 🏠 首页 (Hero区域)
-- 吸引人的渐变落地页
-- 带动态发光效果的浮动个人照片
-- 响应式行动号召按钮
-- 交互式粒子背景效果
-- 流畅迷人的文字动画
-
-### 👤 关于我 (关于部分)
-- 完整的专业档案
-- 带动画装饰的正式照片
-- 带自动填充动画的技能条
-- 经验和专业热情描述
-- 网格系统响应式布局
-
-### 💼 工作经验 (时间线)
-- 具有3个主要经验的交互式垂直时间线：
-  - **通信与数字经济部实习** - 数字通信和数据管理
-  - **交通运输部实习** - 运输和物流战略项目
-  - **谷歌培训项目** - 数字技能和领导力发展
-- 带动画的时间线标记
-- 带悬停效果的经验卡片
-- 每个经验的标签/徽章
-
-### 🖼️ 作品集画廊 (作品集部分)
-- 4个工作经历照片的网格画廊
-- 交互式类别筛选器（全部、通信与数字经济部、交通运输部、谷歌）
-- 悬停时带信息的渐变叠加
-- 缩放和不透明度效果动画
-- 性能优化的懒加载
-
-### 📧 联系我们 (联系部分)
-- 功能完整的联系表单
-- 完整的联系信息：
-  - 邮箱：naufalzul45@gmail.com
-  - 电话：+62 83829586688
-  - 地点：印度尼西亚西爪哇省万隆市
-- 优秀的表单验证
-- 成功消息通知
-
-### 📱 页脚
-- 社交媒体链接（领英、GitHub、脸书、照片墙）
-- 快速链接导航
-- 版权信息
-- 响应式布局
+- [Fitur Utama](#fitur-utama)
+- [Teknologi yang Digunakan](#teknologi-yang-digunakan)
+- [Struktur Proyek](#struktur-proyek)
+- [Instalasi dan Penggunaan](#instalasi-dan-penggunaan)
+- [Fitur Responsif](#fitur-responsif)
+- [Informasi Kontak](#informasi-kontak)
 
 ---
 
-## 🛠️ 使用技术
+## ✨ Fitur Utama
 
-### 前端技术
+### 🏠 Beranda (Area Hero)
+- Halaman pendaratan dengan gradien yang menarik
+- Foto personal dengan efek cahaya dinamis yang melayang
+- Tombol ajakan untuk bertindak yang responsif
+- Efek latar belakang partikel interaktif
+- Animasi teks yang halus dan menarik
+
+### 👤 Tentang Saya (Bagian About)
+- Profil profesional yang lengkap
+- Foto formal dengan dekorasi animasi
+- Bilah keterampilan dengan animasi pengisian otomatis
+- Deskripsi pengalaman dan semangat profesional
+- Tata letak responsif dengan sistem grid
+
+### 💼 Pengalaman Kerja (Timeline)
+- Timeline vertikal interaktif dengan 3 pengalaman utama:
+  - **Magang Kementerian Komunikasi dan Ekonomi Digital** - Komunikasi digital dan manajemen data
+  - **Magang Kementerian Perwakilan** - Proyek strategis transportasi dan logistik
+  - **Program Pelatihan Google** - Pengembangan keterampilan digital dan kepemimpinan
+- Penanda timeline dengan animasi
+- Kartu pengalaman dengan efek hover
+- Label/badge untuk setiap pengalaman
+
+### 🖼️ Galeri Portofolio (Bagian Portofolio)
+- Galeri grid dengan 4 foto pengalaman kerja
+- Filter kategori interaktif (Semua, Kementerian Komunikasi dan Ekonomi Digital, Kementerian Perwakilan, Google)
+- Overlay gradien dengan informasi saat hover
+- Animasi efek zoom dan opacity
+- Lazy loading untuk performa optimal
+
+### 📧 Hubungi Kami (Bagian Kontak)
+- Formulir kontak yang berfungsi lengkap
+- Informasi kontak lengkap:
+  - Email：naufalzul45@gmail.com
+  - Telepon：+62 83829586688
+  - Lokasi：Jawa Barat, Indonesia
+- Validasi formulir yang sangat baik
+- Pemberitahuan pesan berhasil
+
+### 📱 Footer
+- Tautan media sosial (LinkedIn, GitHub, Facebook, Instagram)
+- Tautan navigasi cepat
+- Informasi hak cipta
+- Tata letak responsif
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+### Teknologi Frontend
 
 #### **HTML5**
-- 语义化HTML结构
-- 无障碍最佳实践
-- SEO优化的元标签
-- 字体awesome图标集成
+- Struktur HTML semantik
+- Praktik terbaik aksesibilitas
+- Tag meta yang dioptimalkan untuk SEO
+- Integrasi ikon Font Awesome
 
 #### **CSS3**
-- 现代CSS网格和弹性布局
-- CSS自定义属性（变量）
-- 渐变背景和效果
-- 关键帧动画
-- 背景模糊效果
-- 深度阴影
-- 媒体查询响应式设计
-- 移动优先方法
-- 流畅的过渡和计时函数
+- Tata letak Grid dan Flexbox modern
+- Properti kustom CSS (variabel)
+- Latar belakang dan efek gradien
+- Animasi keyframe
+- Efek blur latar belakang
+- Bayangan dalam
+- Desain responsif dengan media query
+- Pendekatan mobile-first
+- Transisi dan fungsi waktu yang halus
 
-#### **JavaScript (原生)**
-- DOM操作和事件监听
-- 懒加载的Intersection Observer API
-- 流畅滚动行为
-- 表单验证和处理
-- 动态元素创建
-- 动画触发器
-- 移动菜单切换功能
-- 视差效果
-- 滚动进度指示器
-- 活动导航链接指示器
+#### **JavaScript (Murni)**
+- Manipulasi DOM dan event listener
+- Intersection Observer API untuk lazy loading
+- Perilaku gulir halus
+- Validasi dan penanganan formulir
+- Pembuatan elemen dinamis
+- Pemicu animasi
+- Fungsi menu mobile toggle
+- Efek paralaks
+- Indikator progres gulir
+- Indikator tautan navigasi aktif
 
-### UI/UX库
+### UI/UX Library
 
 #### **Font Awesome 6.4.0**
-- 社交媒体、联系、导航图标库
-- CDN集成
+- Library ikon untuk media sosial, kontak, navigasi
+- Integrasi CDN
 
-### 设计模式
+### Pola Desain
 
-- **响应式设计**：768px和480px断点
-- **移动优先方法**：从移动端开发
-- **组件化结构**：模块化可复用部分
-- **性能优化**：懒加载图片、优化动画
-- **无障碍**：语义HTML、适当对比度
+- **Desain Responsif**：Titik henti 768px dan 480px
+- **Pendekatan Mobile-First**：Dikembangkan dari mobile terlebih dahulu
+- **Struktur Komponen**：Bagian modular yang dapat digunakan ulang
+- **Optimasi Performa**：Lazy loading gambar, animasi yang dioptimalkan
+- **Aksesibilitas**：HTML semantik, kontras yang sesuai
 
 ---
 
-## 📁 项目结构
+## 📁 Struktur Proyek
 
 ```
 Lahan Penghijauan/
-├── index.html          # 主HTML页面
-├── style.css           # 动画和响应式设计样式表
-├── script.js           # 交互性JavaScript
-├── README.md           # 项目文档（本文档）
-└── img/                # 图片资源文件夹
+├── index.html          # Halaman HTML utama
+├── style.css           # Stylesheet untuk animasi dan desain responsif
+├── script.js           # JavaScript untuk interaktivitas
+├── README.md           # Dokumentasi proyek (dokumen ini)
+└── img/                # Folder sumber gambar
     ├── foto-formal.jpg
     ├── foto-diskominfo.jpeg
     ├── foto-KementerianPerhubungan1.jpeg
@@ -129,107 +129,107 @@ Lahan Penghijauan/
 
 ---
 
-## 🚀 安装和使用
+## 🚀 Instalasi dan Penggunaan
 
-### 要求
-- 现代浏览器（Chrome、Firefox、Safari、Edge）
-- CDN资源（Font Awesome）需要互联网连接
+### Persyaratan
+- Browser modern (Chrome, Firefox, Safari, Edge)
+- Sumber CDN (Font Awesome) memerlukan koneksi internet
 
-### 步骤
+### Langkah-langkah
 
-1. **克隆或下载项目**
+1. **Kloning atau mengunduh proyek**
    ```bash
    git clone <repository-url>
    cd Lahan\ Penghijauan
    ```
 
-2. **打开HTML文件**
-   - 直接在浏览器中打开 `index.html`
-   - 或在VS Code中使用Live Server扩展
+2. **Membuka file HTML**
+   - Buka `index.html` langsung di browser
+   - Atau gunakan ekstensi Live Server di VS Code
    ```bash
-   # 使用Live Server时
-   # 右键 index.html → Open with Live Server
+   # Saat menggunakan Live Server
+   # Klik kanan index.html → Open with Live Server
    ```
 
-3. **测试**
-   - 确认所有部分正常工作
-   - 测试不同屏幕尺寸的响应式设计
-   - 确认所有动画流畅运行
+3. **Pengujian**
+   - Pastikan semua bagian berfungsi dengan baik
+   - Uji desain responsif untuk berbagai ukuran layar
+   - Pastikan semua animasi berjalan dengan halus
 
-### 开发服务器（可选）
-使用Live Server或其他适合开发的工具：
+### Server Pengembangan (Opsional)
+Gunakan Live Server atau alat pengembangan lainnya:
 
 ```bash
 # Python 3
 python -m http.server 8000
 
-# Node.js with http-server
+# Node.js dengan http-server
 npx http-server
 ```
 
-然后在浏览器中打开 `http://localhost:8000`。
+Lalu buka `http://localhost:8000` di browser.
 
 ---
 
-## 📱 响应式功能
+## 📱 Fitur Responsif
 
-### 断点
-- **桌面端**：> 768px（完整布局）
-- **平板端**：481px - 768px（调整网格）
-- **移动端**：< 480px（单列）
+### Titik Henti
+- **Desktop**：> 768px (tata letak penuh)
+- **Tablet**：481px - 768px (grid yang disesuaikan)
+- **Mobile**：< 480px (satu kolom)
 
-### 响应式元素
-- ✅ 移动端汉堡菜单
-- ✅ 自适应网格布局
-- ✅ 可缩放字体大小
-- ✅ 触摸友好按钮和链接
-- ✅ 不同设备优化图片
-- ✅ 所有浏览器流畅滚动
-
----
-
-## 🎨 动画和效果
-
-### 主要动画
-- `fadeInUp` - 带向上平移的淡入
-- `float` - 首页图片浮动效果
-- `pulse` - 发光脉冲效果
-- `slideDown` - 导航栏滑下动画
-- `bounce` - 徽标弹跳效果
-- `scaleIn` - 缩放动画
-- `slideInLeft` 和 `slideInRight` - 方向滑入动画
-- `fillBar` - 技能条填充动画
-
-### 交互效果
-- 卡片和按钮悬停效果
-- 所有交互元素流畅过渡
-- 视差滚动效果
-- 滚动时进度条指示器
-- 首页动态粒子效果
+### Elemen Responsif
+- ✅ Menu hamburger untuk mobile
+- ✅ Tata letak grid yang beradaptasi
+- ✅ Ukuran font yang dapat diskalakan
+- ✅ Tombol dan tautan yang ramah sentuhan
+- ✅ Gambar yang dioptimalkan untuk perangkat berbeda
+- ✅ Gulir yang halus di semua browser
 
 ---
 
-## 📊 性能
+## 🎨 Animasi dan Efek
 
-### 优化技巧
-- 使用Intersection Observer的图片懒加载
-- 使用GPU加速的CSS动画
-- 最小化重绘和回流
-- 高效事件委托
-- 防抖滚动事件（部分浏览器）
+### Animasi Utama
+- `fadeInUp` - Fade in dengan translasi ke atas
+- `float` - Efek melayang untuk gambar hero
+- `pulse` - Efek denyut cahaya
+- `slideDown` - Animasi geser ke bawah untuk navbar
+- `bounce` - Efek pantulan untuk logo
+- `scaleIn` - Animasi skala
+- `slideInLeft` dan `slideInRight` - Animasi geser dari arah tertentu
+- `fillBar` - Animasi pengisian bilah keterampilan
 
-### 浏览器支持
-- Chrome（最新）
-- Firefox（最新）
-- Safari（最新）
-- Edge（最新）
+### Efek Interaksi
+- Efek hover pada kartu dan tombol
+- Transisi yang halus untuk semua elemen interaksi
+- Efek gulir paralaks
+- Indikator bilah progres saat menggulir
+- Efek partikel dinamis di bagian hero
 
 ---
 
-## 🔧 自定义
+## 📊 Performa
 
-### 更改主题颜色
-编辑 `style.css` 的CSS变量：
+### Tips Optimasi
+- Lazy loading gambar menggunakan Intersection Observer
+- Animasi CSS dengan akselerasi GPU
+- Minimalkan repaint dan reflow
+- Event delegation yang efisien
+- Debounce event scroll (untuk beberapa browser)
+
+### Dukungan Browser
+- Chrome (terbaru)
+- Firefox (terbaru)
+- Safari (terbaru)
+- Edge (terbaru)
+
+---
+
+## 🔧 Kustomisasi
+
+### Mengubah Warna Tema
+Edit variabel CSS di `style.css`:
 ```css
 :root {
     --primary-color: #6366f1;
@@ -241,59 +241,59 @@ npx http-server
 }
 ```
 
-### 添加新部分
-1. 在 `index.html` 添加HTML
-2. 在 `style.css` 添加CSS样式
-3. 在 `script.js` 添加JavaScript交互（如需要）
+### Menambahkan Bagian Baru
+1. Tambahkan HTML di `index.html`
+2. Tambahkan CSS di `style.css`
+3. Tambahkan JavaScript di `script.js` (jika diperlukan)
 
-### 更新内容
-- 修改 `index.html` 中的文字
-- 更新 `img/` 文件夹中的照片
-- 调整联系部分的联系信息
-
----
-
-## 📞 联系方式和信息
-
-- **邮箱**：naufalzul45@gmail.com
-- **电话**：+62 83829586688
-- **地点**：印度尼西亚西爪哇省万隆市
-- **社交媒体**：领英、GitHub、脸书、照片墙
+### Memperbarui Konten
+- Ubah teks di `index.html`
+- Perbarui foto di folder `img/`
+- Sesuaikan informasi kontak di bagian kontak
 
 ---
 
-## 📝 许可证
+## 📞 Informasi Kontak
 
-此作品集是为个人专业目的创建的。请将其作为您项目的参考。
-
----
-
-## 🎯 未来功能路线图
-
-- [ ] 表单提交的後端集成
-- [ ] 文章博客部分
-- [ ] 带详细信息的项目展示
-- [ ] 深色模式切换
-- [ ] 多语言支持（印尼语、英语和中文）
-- [ ] PDF简历下载
-- [ ] 推荐信部分
-- [ ] 服务部分
+- **Email**：naufalzul45@gmail.com
+- **Telepon**：+62 83829586688
+- **Lokasi**：Jawa Barat, Indonesia
+- **Media Sosial**：LinkedIn, GitHub, Facebook, Instagram
 
 ---
 
-## 📄 变更日志
+## 📝 Lisensi
 
-### 版本 1.0（当前）
-- ✅ 初始发布
-- ✅ 完全响应式设计
-- ✅ 流畅动画和效果
-- ✅ 联系信息更新
-- ✅ 社交媒体链接（领英、GitHub、脸书、照片墙）
-- ✅ 专业文档
+Portofolio ini dibuat untuk tujuan profesional pribadi. Silakan gunakan sebagai referensi untuk proyek Anda sendiri.
 
 ---
 
-**❤️ 使用HTML5、CSS3和原生JavaScript创建**
+## 🎯 Peta Jalan Fitur Masa Depan
 
-*最后更新：2026年1月10日*
+- [ ] Integrasi backend untuk pengiriman formulir
+- [ ] Bagian blog/artikel
+- [ ] Showcase proyek dengan detail
+- [ ] Pengalihan ke mode gelap
+- [ ] Dukungan multibahasa (Indonesia, Inggris, dan Mandarin)
+- [ ] Unduhan CV dalam format PDF
+- [ ] Bagian surat rekomendasi
+- [ ] Bagian layanan
+
+---
+
+## 📄 Catatan Perubahan
+
+### Versi 1.0 (Saat ini)
+- ✅ Rilis awal
+- ✅ Desain responsif sepenuhnya
+- ✅ Animasi dan efek yang halus
+- ✅ Informasi kontak diperbarui
+- ✅ Tautan media sosial (LinkedIn, GitHub, Facebook, Instagram)
+- ✅ Dokumentasi profesional
+
+---
+
+**❤️ Dibuat dengan HTML5, CSS3, dan JavaScript Murni**
+
+*Terakhir diperbarui：10 Januari 2026*
 
