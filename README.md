@@ -297,3 +297,4 @@ Portofolio ini dibuat untuk tujuan profesional pribadi. Silakan gunakan sebagai 
 
 *Terakhir diperbarui：13 Januari 2026*
 
+Saya Bingung MAU UPDATE APA LAGI
