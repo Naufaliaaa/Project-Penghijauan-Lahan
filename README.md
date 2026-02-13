@@ -293,7 +293,7 @@ Portofolio ini dibuat untuk tujuan profesional pribadi. Silakan gunakan sebagai 
 
 ---
 
-**❤️ Dibuat dengan HTML5, CSS3, dan JavaScript Murni**
+**❤️ Dibuat dengan HTML5, CSS3, dan JavaScript Vanila**
 
-*Terakhir diperbarui：10 Januari 2026*
+*Terakhir diperbarui：13 Januari 2026*
 
