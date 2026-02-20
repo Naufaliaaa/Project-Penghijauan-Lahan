@@ -1,125 +1,125 @@
-# 🎯 Portofolio Naufal
+# 🎯 Naufal Portfolio
 
-Website portofolio personal yang modern dan responsif, yang menampilkan pengalaman profesional, galeri pekerjaan, dan informasi kontak. Dibangun dengan teknologi terbaru, memiliki animasi menarik dan antarmuka yang intuitif.
+A modern and responsive personal portfolio website showcasing professional experience, work gallery, and contact information. Built with the latest technologies, featuring engaging animations and an intuitive interface.
 
-## 📋 Daftar Isi
+## 📋 Table of Contents
 
-- [Fitur Utama](#fitur-utama)
-- [Teknologi yang Digunakan](#teknologi-yang-digunakan)
-- [Struktur Proyek](#struktur-proyek)
-- [Instalasi dan Penggunaan](#instalasi-dan-penggunaan)
-- [Fitur Responsif](#fitur-responsif)
-- [Informasi Kontak](#informasi-kontak)
+- [Key Features](#key-features)
+- [Technologies Used](#technologies-used)
+- [Project Structure](#project-structure)
+- [Installation and Usage](#installation-and-usage)
+- [Responsive Features](#responsive-features)
+- [Contact Information](#contact-information)
 
 ---
 
-## ✨ Fitur Utama
+## ✨ Key Features
 
-### 🏠 Beranda (Area Hero)
-- Halaman pendaratan dengan gradien yang menarik
-- Foto personal dengan efek cahaya dinamis yang melayang
-- Tombol ajakan untuk bertindak yang responsif
-- Efek latar belakang partikel interaktif
-- Animasi teks yang halus dan menarik
+### 🏠 Home (Hero Area)
+- Landing page with attractive gradient
+- Personal photo with dynamic floating light effect
+- Responsive call-to-action button
+- Interactive particle background effect
+- Smooth and engaging text animations
 
-### 👤 Tentang Saya (Bagian About)
-- Profil profesional yang lengkap
-- Foto formal dengan dekorasi animasi
-- Bilah keterampilan dengan animasi pengisian otomatis
-- Deskripsi pengalaman dan semangat profesional
-- Tata letak responsif dengan sistem grid
+### 👤 About Me (About Section)
+- Complete professional profile
+- Formal photo with animation decorations
+- Skill bars with auto-fill animation
+- Experience description and professional passion
+- Responsive layout with grid system
 
-### 💼 Pengalaman Kerja (Timeline)
-- Timeline vertikal interaktif dengan 3 pengalaman utama:
-  - **Magang Kementerian Komunikasi dan Ekonomi Digital** - Komunikasi digital dan manajemen data
-  - **Magang Kementerian Perwakilan** - Proyek strategis transportasi dan logistik
-  - **Program Pelatihan Google** - Pengembangan keterampilan digital dan kepemimpinan
-- Penanda timeline dengan animasi
-- Kartu pengalaman dengan efek hover
-- Label/badge untuk setiap pengalaman
+### 💼 Work Experience (Timeline)
+- Interactive vertical timeline with 3 main experiences:
+  - **Ministry of Communication and Digital Economy Internship** - Digital communication and data management
+  - **Ministry of Transportation Internship** - Strategic transportation and logistics projects
+  - **Google Training Program** - Digital skills and leadership development
+- Timeline markers with animation
+- Experience cards with hover effects
+- Labels/badges for each experience
 
-### 🖼️ Galeri Portofolio (Bagian Portofolio)
-- Galeri grid dengan 4 foto pengalaman kerja
-- Filter kategori interaktif (Semua, Kementerian Komunikasi dan Ekonomi Digital, Kementerian Perwakilan, Google)
-- Overlay gradien dengan informasi saat hover
-- Animasi efek zoom dan opacity
-- Lazy loading untuk performa optimal
+### 🖼️ Portfolio Gallery (Portfolio Section)
+- Grid gallery with 4 work experience photos
+- Interactive category filters (All, Ministry of Communication and Digital Economy, Ministry of Transportation, Google)
+- Gradient overlay with hover information
+- Zoom and opacity effect animations
+- Lazy loading for optimal performance
 
-### 📧 Hubungi Kami (Bagian Kontak)
-- Formulir kontak yang berfungsi lengkap
-- Informasi kontak lengkap:
-  - Email：naufalzul45@gmail.com
-  - Telepon：+62 83829586688
-  - Lokasi：Jawa Barat, Indonesia
-- Validasi formulir yang sangat baik
-- Pemberitahuan pesan berhasil
+### 📧 Contact Us (Contact Section)
+- Fully functional contact form
+- Complete contact information:
+  - Email: naufalzul45@gmail.com
+  - Phone: +62 83829586688
+  - Location: West Java, Indonesia
+- Excellent form validation
+- Success message notification
 
 ### 📱 Footer
-- Tautan media sosial (LinkedIn, GitHub, Facebook, Instagram)
-- Tautan navigasi cepat
-- Informasi hak cipta
-- Tata letak responsif
+- Social media links (LinkedIn, GitHub, Facebook, Instagram)
+- Quick navigation links
+- Copyright information
+- Responsive layout
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## 🛠️ Technologies Used
 
-### Teknologi Frontend
+### Frontend Technologies
 
 #### **HTML5**
-- Struktur HTML semantik
-- Praktik terbaik aksesibilitas
-- Tag meta yang dioptimalkan untuk SEO
-- Integrasi ikon Font Awesome
+- Semantic HTML structure
+- Accessibility best practices
+- Meta tags optimized for SEO
+- Font Awesome icon integration
 
 #### **CSS3**
-- Tata letak Grid dan Flexbox modern
-- Properti kustom CSS (variabel)
-- Latar belakang dan efek gradien
-- Animasi keyframe
-- Efek blur latar belakang
-- Bayangan dalam
-- Desain responsif dengan media query
-- Pendekatan mobile-first
-- Transisi dan fungsi waktu yang halus
+- Modern Grid and Flexbox layouts
+- CSS custom properties (variables)
+- Background and gradient effects
+- Keyframe animations
+- Background blur effects
+- Inner shadows
+- Responsive design with media queries
+- Mobile-first approach
+- Smooth transitions and timing functions
 
-#### **JavaScript (Murni)**
-- Manipulasi DOM dan event listener
-- Intersection Observer API untuk lazy loading
-- Perilaku gulir halus
-- Validasi dan penanganan formulir
-- Pembuatan elemen dinamis
-- Pemicu animasi
-- Fungsi menu mobile toggle
-- Efek paralaks
-- Indikator progres gulir
-- Indikator tautan navigasi aktif
+#### **JavaScript (Vanilla)**
+- DOM manipulation and event listeners
+- Intersection Observer API for lazy loading
+- Smooth scrolling behavior
+- Form validation and handling
+- Dynamic element creation
+- Animation triggers
+- Mobile menu toggle function
+- Parallax effects
+- Scroll progress indicator
+- Active navigation link indicator
 
 ### UI/UX Library
 
 #### **Font Awesome 6.4.0**
-- Library ikon untuk media sosial, kontak, navigasi
-- Integrasi CDN
+- Icon library for social media, contacts, navigation
+- CDN integration
 
-### Pola Desain
+### Design Patterns
 
-- **Desain Responsif**：Titik henti 768px dan 480px
-- **Pendekatan Mobile-First**：Dikembangkan dari mobile terlebih dahulu
-- **Struktur Komponen**：Bagian modular yang dapat digunakan ulang
-- **Optimasi Performa**：Lazy loading gambar, animasi yang dioptimalkan
-- **Aksesibilitas**：HTML semantik, kontras yang sesuai
+- **Responsive Design**: Breakpoints at 768px and 480px
+- **Mobile-First Approach**: Developed from mobile first
+- **Component Structure**: Modular reusable sections
+- **Performance Optimization**: Lazy loading images, optimized animations
+- **Accessibility**: Semantic HTML, appropriate contrast
 
 ---
 
-## 📁 Struktur Proyek
+## 📁 Project Structure
 
 ```
 Lahan Penghijauan/
-├── index.html          # Halaman HTML utama
-├── style.css           # Stylesheet untuk animasi dan desain responsif
-├── script.js           # JavaScript untuk interaktivitas
-├── README.md           # Dokumentasi proyek (dokumen ini)
-└── img/                # Folder sumber gambar
+├── index.html          # Main HTML page
+├── style.css           # Stylesheet for animations and responsive design
+├── script.js           # JavaScript for interactivity
+├── README.md           # Project documentation (this document)
+└── img/                # Image source folder
     ├── foto-formal.jpg
     ├── foto-diskominfo.jpeg
     ├── foto-KementerianPerhubungan1.jpeg
@@ -129,107 +129,107 @@ Lahan Penghijauan/
 
 ---
 
-## 🚀 Instalasi dan Penggunaan
+## 🚀 Installation and Usage
 
-### Persyaratan
-- Browser modern (Chrome, Firefox, Safari, Edge)
-- Sumber CDN (Font Awesome) memerlukan koneksi internet
+### Requirements
+- Modern browser (Chrome, Firefox, Safari, Edge)
+- CDN source (Font Awesome) requires internet connection
 
-### Langkah-langkah
+### Steps
 
-1. **Kloning atau mengunduh proyek**
+1. **Clone or download the project**
    ```bash
    git clone <repository-url>
    cd Lahan\ Penghijauan
    ```
 
-2. **Membuka file HTML**
-   - Buka `index.html` langsung di browser
-   - Atau gunakan ekstensi Live Server di VS Code
+2. **Opening HTML file**
+   - Open `index.html` directly in browser
+   - Or use Live Server extension in VS Code
    ```bash
-   # Saat menggunakan Live Server
-   # Klik kanan index.html → Open with Live Server
+   # When using Live Server
+   # Right-click index.html → Open with Live Server
    ```
 
-3. **Pengujian**
-   - Pastikan semua bagian berfungsi dengan baik
-   - Uji desain responsif untuk berbagai ukuran layar
-   - Pastikan semua animasi berjalan dengan halus
+3. **Testing**
+   - Make sure all sections work properly
+   - Test responsive design for different screen sizes
+   - Ensure all animations run smoothly
 
-### Server Pengembangan (Opsional)
-Gunakan Live Server atau alat pengembangan lainnya:
+### Development Server (Optional)
+Use Live Server or other development tools:
 
 ```bash
 # Python 3
 python -m http.server 8000
 
-# Node.js dengan http-server
+# Node.js with http-server
 npx http-server
 ```
 
-Lalu buka `http://localhost:8000` di browser.
+Then open `http://localhost:8000` in browser.
 
 ---
 
-## 📱 Fitur Responsif
+## 📱 Responsive Features
 
-### Titik Henti
-- **Desktop**：> 768px (tata letak penuh)
-- **Tablet**：481px - 768px (grid yang disesuaikan)
-- **Mobile**：< 480px (satu kolom)
+### Breakpoints
+- **Desktop**: > 768px (full layout)
+- **Tablet**: 481px - 768px (adjusted grid)
+- **Mobile**: < 480px (single column)
 
-### Elemen Responsif
-- ✅ Menu hamburger untuk mobile
-- ✅ Tata letak grid yang beradaptasi
-- ✅ Ukuran font yang dapat diskalakan
-- ✅ Tombol dan tautan yang ramah sentuhan
-- ✅ Gambar yang dioptimalkan untuk perangkat berbeda
-- ✅ Gulir yang halus di semua browser
-
----
-
-## 🎨 Animasi dan Efek
-
-### Animasi Utama
-- `fadeInUp` - Fade in dengan translasi ke atas
-- `float` - Efek melayang untuk gambar hero
-- `pulse` - Efek denyut cahaya
-- `slideDown` - Animasi geser ke bawah untuk navbar
-- `bounce` - Efek pantulan untuk logo
-- `scaleIn` - Animasi skala
-- `slideInLeft` dan `slideInRight` - Animasi geser dari arah tertentu
-- `fillBar` - Animasi pengisian bilah keterampilan
-
-### Efek Interaksi
-- Efek hover pada kartu dan tombol
-- Transisi yang halus untuk semua elemen interaksi
-- Efek gulir paralaks
-- Indikator bilah progres saat menggulir
-- Efek partikel dinamis di bagian hero
+### Responsive Elements
+- ✅ Hamburger menu for mobile
+- ✅ Adaptive grid layout
+- ✅ Scalable font sizes
+- ✅ Touch-friendly buttons and links
+- ✅ Images optimized for different devices
+- ✅ Smooth scrolling across all browsers
 
 ---
 
-## 📊 Performa
+## 🎨 Animations and Effects
 
-### Tips Optimasi
-- Lazy loading gambar menggunakan Intersection Observer
-- Animasi CSS dengan akselerasi GPU
-- Minimalkan repaint dan reflow
-- Event delegation yang efisien
-- Debounce event scroll (untuk beberapa browser)
+### Main Animations
+- `fadeInUp` - Fade in with upward translation
+- `float` - Floating effect for hero image
+- `pulse` - Pulsing light effect
+- `slideDown` - Slide down animation for navbar
+- `bounce` - Bounce effect for logo
+- `scaleIn` - Scale animation
+- `slideInLeft` and `slideInRight` - Slide animations from specific directions
+- `fillBar` - Skill bar fill animation
 
-### Dukungan Browser
-- Chrome (terbaru)
-- Firefox (terbaru)
-- Safari (terbaru)
-- Edge (terbaru)
+### Interaction Effects
+- Hover effects on cards and buttons
+- Smooth transitions for all interactive elements
+- Parallax scrolling effects
+- Progress bar indicator while scrolling
+- Dynamic particle effects in hero section
 
 ---
 
-## 🔧 Kustomisasi
+## 📊 Performance
 
-### Mengubah Warna Tema
-Edit variabel CSS di `style.css`:
+### Optimization Tips
+- Lazy loading images using Intersection Observer
+- CSS animations with GPU acceleration
+- Minimize repaints and reflows
+- Efficient event delegation
+- Debounce scroll events (for some browsers)
+
+### Browser Support
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+---
+
+## 🔧 Customization
+
+### Changing Theme Colors
+Edit CSS variables in `style.css`:
 ```css
 :root {
     --primary-color: #6366f1;
@@ -241,60 +241,60 @@ Edit variabel CSS di `style.css`:
 }
 ```
 
-### Menambahkan Bagian Baru
-1. Tambahkan HTML di `index.html`
-2. Tambahkan CSS di `style.css`
-3. Tambahkan JavaScript di `script.js` (jika diperlukan)
+### Adding New Section
+1. Add HTML in `index.html`
+2. Add CSS in `style.css`
+3. Add JavaScript in `script.js` (if needed)
 
-### Memperbarui Konten
-- Ubah teks di `index.html`
-- Perbarui foto di folder `img/`
-- Sesuaikan informasi kontak di bagian kontak
-
----
-
-## 📞 Informasi Kontak
-
-- **Email**：naufalzul45@gmail.com
-- **Telepon**：+62 83829586688
-- **Lokasi**：Jawa Barat, Indonesia
-- **Media Sosial**：LinkedIn, GitHub, Facebook, Instagram
+### Updating Content
+- Change text in `index.html`
+- Update photos in `img/` folder
+- Adjust contact information in contact section
 
 ---
 
-## 📝 Lisensi
+## 📞 Contact Information
 
-Portofolio ini dibuat untuk tujuan profesional pribadi. Silakan gunakan sebagai referensi untuk proyek Anda sendiri.
-
----
-
-## 🎯 Peta Jalan Fitur Masa Depan
-
-- [ ] Integrasi backend untuk pengiriman formulir
-- [ ] Bagian blog/artikel
-- [ ] Showcase proyek dengan detail
-- [ ] Pengalihan ke mode gelap
-- [ ] Dukungan multibahasa (Indonesia, Inggris, dan Mandarin)
-- [ ] Unduhan CV dalam format PDF
-- [ ] Bagian surat rekomendasi
-- [ ] Bagian layanan
+- **Email**: naufalzul45@gmail.com
+- **Phone**: +62 83829586688
+- **Location**: West Java, Indonesia
+- **Social Media**: LinkedIn, GitHub, Facebook, Instagram
 
 ---
 
-## 📄 Catatan Perubahan
+## 📝 License
 
-### Versi 1.0 (Saat ini)
-- ✅ Rilis awal
-- ✅ Desain responsif sepenuhnya
-- ✅ Animasi dan efek yang halus
-- ✅ Informasi kontak diperbarui
-- ✅ Tautan media sosial (LinkedIn, GitHub, Facebook, Instagram)
-- ✅ Dokumentasi profesional
+This portfolio is created for personal professional purposes. Please use as reference for your own projects.
 
 ---
 
-**❤️ Dibuat dengan HTML5, CSS3, dan JavaScript Vanila**
+## 🎯 Future Features Roadmap
 
-*Terakhir diperbarui：13 Januari 2026*
+- [ ] Backend integration for form submission
+- [ ] Blog/article section
+- [ ] Project showcase with details
+- [ ] Dark mode toggle
+- [ ] Multilingual support (Indonesian, English, and Mandarin)
+- [ ] CV download in PDF format
+- [ ] Recommendation letter section
+- [ ] Services section
 
-Saya Bingung MAU UPDATE APA LAGI
+---
+
+## 📄 Changelog
+
+### Version 1.0 (Current)
+- ✅ Initial release
+- ✅ Fully responsive design
+- ✅ Smooth animations and effects
+- ✅ Updated contact information
+- ✅ Social media links (LinkedIn, GitHub, Facebook, Instagram)
+- ✅ Professional documentation
+
+---
+
+**❤️ Made with HTML5, CSS3, and Vanilla JavaScript**
+
+*Last updated: January 13, 2026*
+
+I'M CONFUSED WHAT ELSE TO UPDATE
