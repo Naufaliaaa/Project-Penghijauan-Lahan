@@ -298,6 +298,3 @@ This portfolio is created for personal professional purposes. Please use as refe
 *Last updated: February 22, 2026*
 
 I'M CONFUSED WHAT ELSE TO UPDATE
-
-AKU UPDATE DIKIT YAAA
-
