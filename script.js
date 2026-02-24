@@ -10,7 +10,7 @@ const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
 const navLinks = document.querySelectorAll('.nav-link');
 
-// Fungsi menu hamburger
+// Fungsi menu hamburger 
 hamburger.addEventListener('click', () => {
     navMenu.classList.toggle('active');
     hamburger.classList.toggle('active');
@@ -323,3 +323,4 @@ window.addEventListener('scroll', () => {
 
 console.log('Website portofolio berhasil dimuat!');
 
+//Ini file JS untuk Fungsi dan animasi
