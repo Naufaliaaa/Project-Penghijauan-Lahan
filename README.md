@@ -213,9 +213,9 @@ Then open `http://localhost:8000` in browser.
 
 ### Optimization Tips
 - Lazy loading images using Intersection Observer
-- CSS animations with GPU acceleration
-- Minimize repaints and reflows
-- Efficient event delegation
+- CSS animations with GPU Acceleration
+- Minimize Repaints and Reflows
+- Efficient Event Delegation
 - Debounce scroll events (for some browsers)
 
 ### Browser Support
