@@ -1,13 +1,1 @@
-# TODO - Simple New Portfolio Display
-
-## Status: [In Progress]
-
-1. [x] Create TODO.md (Done)
-2. [x] Edit index.html - Replace portfolio section with simple 2x2 grid + captions (Done)
-3. [x] Edit style.css - Add simple portfolio styles (clean cards, hover scale) (Done)
-4. [x] Edit script.js - Remove portfolio filter JS logic (Done)
-5. [x] Test responsive layout on mobile/tablet/desktop (Done - added mobile grid + aspect-ratio)
-6. [x] Preview with `open index.html` (Done)
-7. [x] Mark complete & attempt_completion (Done)
-
-## Status: [Feedback - Blue Theme Update]
+# TODO: Change Main Theme to Green\n\n## Plan Steps:\n1. [x] Create TODO.md and confirm plan approval\n2. [x] Update CSS variables in style.css to green theme\n3. [x] Adjust key gradients and backgrounds for cohesion\n4. [x] Test changes by opening index.html (browser command executed)\n5. [x] Mark complete and cleanup TODO.md\n\n**Theme updated successfully to green! Hero section, buttons, accents now use green (#10B981, #34D399) palette. Refresh browser to view.**
