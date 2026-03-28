@@ -295,6 +295,6 @@ This portfolio is created for personal professional purposes. Please use as refe
 
 **❤️ Made with HTML5, CSS3, and Vanilla JavaScript**
 
-*Last updated: Maret 26, 2026*
+*Last Updated: Maret 28, 2026*
 
 I'M CONFUSED WHAT ELSE TO UPDATE
