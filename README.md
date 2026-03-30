@@ -284,7 +284,7 @@ This portfolio is created for personal professional purposes. Please use as refe
 ## 📄 Changelog
 
 ### Version 1.0 (Current)
-- ✅ Initial release
+- ✅ Initial Release
 - ✅ Fully responsive design
 - ✅ Smooth animations and effects
 - ✅ Updated contact information
@@ -295,6 +295,6 @@ This portfolio is created for personal professional purposes. Please use as refe
 
 **❤️ Made with HTML5, CSS3, and Vanilla JavaScript ❤️**
 
-*Last Updated: Maret 29, 2026*
+*Last Updated: Maret 30, 2026*
 
 I'M CONFUSED WHAT ELSE TO UPDATE
