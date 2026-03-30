@@ -1,12 +1,12 @@
 :root {
---primary-color: #FF69B4;
-    --secondary-color: #FFB6C1;
-    --accent-color: #FF1493;
+--primary-color: #FDB813;
+--secondary-color: #FDCB14;
+--accent-color: #FDB813;
     --dark-bg: #0f172a;
-    --light-bg: #FFF0F5;
+--light-bg: #FFF8E1;
     --text-dark: #1e293b;
     --text-light: #6B7280;
-    --border-color: #FFE4E1;
+--border-color: #FFF8E1;
     --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
