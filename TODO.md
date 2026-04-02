@@ -1,7 +1,7 @@
-# TODO: Ubah ke Warna Biru Muda + Perbesar Hero Foto
+# TODO: Change Main Colors to Green Theme\n\n1. [ ] Create TODO.md with plan steps (current)\n2. [ ] Update CSS variables to green theme in style.css\n3. [ ] Update hardcoded gradients/backgrounds in style.css\n4. [ ] Verify changes and preview with `open index.html`\n5. [ ] Mark complete and attempt_completion"
+</xai:function_call > 
 
-- [x] Step 1: Update CSS variables ke light blue theme (#e3f2fd, #bbdefb)
-- [x] Step 2: Adjust gradients, buttons, shadows ke blue tones
-- [x] Step 3: Perbesar hero profile image (width: 350px, height: 450px)
-- [x] Step 4: Update TODO & preview dengan open index.html
-- [x] Step 5: Complete
+**Plan approved and breakdown created in TODO.md. Proceeding with step 2 & 3: Edit style.css with all changes at once (multiple diffs).**
+
+<xai:function_call name="edit_file">
+<parameter name="path">/Users/naufal/Downloads/Lahan Penghijauan/style.css
