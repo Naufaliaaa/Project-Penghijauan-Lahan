@@ -1,13 +1,13 @@
 :root {
-  --primary-color: #dcedc8;
-  --secondary-color: #aed581;
-  --accent-color: #dcedc8;
+  --primary-color: #FFD700;
+  --secondary-color: #FFA500;
+  --accent-color: #FFD700;
   --dark-bg: #0f172a;
-  --light-bg: #e8f5e8;
+  --light-bg: #FFF8DC;
   --text-dark: #1e293b;
   --text-light: #475569;
-  --border-color: rgba(220, 237, 200, 0.8);
-  --primary-dark: #66bb6a;
+  --border-color: rgba(255, 215, 0, 0.8);
+  --primary-dark: #FF8C00;
   --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -24,7 +24,7 @@ html {
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--text-dark);
-background: linear-gradient(135deg, #dcedc8 0%, #aed581 100%);
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
     line-height: 1.6;
     overflow-x: hidden;
 }
@@ -301,7 +301,7 @@ box-shadow: 0 15px 40px rgba(0,0,0,0.15);
     height: 450px;
     border-radius: 20px;
     object-fit: cover;
-    box-shadow: 0 20px 60px rgba(33, 150, 243, 0.3);
+box-shadow: 0 20px 60px rgba(255, 215, 0, 0.3);
     border: 5px solid rgba(255,255,255,0.9);
     animation: rotateIn 0.8s ease-out;
     /* Foto polos tanpa filter */
@@ -326,7 +326,7 @@ box-shadow: 0 15px 40px rgba(0,0,0,0.15);
     transform: translate(-50%, -50%);
     width: 400px;
     height: 500px;
-background: radial-gradient(circle, rgba(227, 242, 253, 0.4), transparent);
+background: radial-gradient(circle, rgba(255, 215, 0, 0.4), transparent);
     border-radius: 20px;
     filter: blur(30px);
     animation: pulse 2s ease-in-out infinite;
@@ -356,7 +356,7 @@ content: '';
     right: -10%;
     width: 500px;
     height: 500px;
-background: radial-gradient(circle, rgba(102, 187, 106, 0.1), transparent);
+background: radial-gradient(circle, rgba(255, 215, 0, 0.1), transparent);
     border-radius: 50%;
 }
 
@@ -481,7 +481,7 @@ background: radial-gradient(circle, rgba(102, 187, 106, 0.1), transparent);
 /* Experience Section */
 .experience {
     padding: 6rem 0;
-background: linear-gradient(135deg, #e8f5e8 0%, white 100%);
+background: linear-gradient(135deg, var(--light-bg) 0%, white 100%);
 }
 
 .experience-timeline {
@@ -651,7 +651,7 @@ background: linear-gradient(135deg, rgba(248, 249, 250, 0.5), rgba(233, 236, 239
     bottom: 0;
     left: 0;
     right: 0;
-background: linear-gradient(transparent, rgba(102, 187, 106, 0.9));
+background: linear-gradient(transparent, rgba(255, 215, 0, 0.9));
     color: white;
     padding: 2rem 1.5rem 1.5rem;
     transform: translateY(100%);

@@ -1,7 +1,9 @@
-# TODO: Change Main Colors to Green Theme\n\n1. [ ] Create TODO.md with plan steps (current)\n2. [ ] Update CSS variables to green theme in style.css\n3. [ ] Update hardcoded gradients/backgrounds in style.css\n4. [ ] Verify changes and preview with `open index.html`\n5. [ ] Mark complete and attempt_completion"
-</xai:function_call > 
+# Task: Change Main Color to Bright Yellow (kuning cerah)
 
-**Plan approved and breakdown created in TODO.md. Proceeding with step 2 & 3: Edit style.css with all changes at once (multiple diffs).**
-
-<xai:function_call name="edit_file">
-<parameter name="path">/Users/naufal/Downloads/Lahan Penghijauan/style.css
+## Steps:
+- [x] 1. Analyze files and create detailed edit plan (approved by user)
+- [x] 2. Create TODO.md for progress tracking
+- [x] 3. Edit style.css: Update all primary color CSS variables and related tints to bright yellow theme (#FFD700 primary, #FFA500 secondary)
+- [x] 4. Verify edit success by reading updated style.css
+- [x] 5. Test the website appearance
+- [x] 6. Mark complete and demo result
