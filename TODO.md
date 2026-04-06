@@ -1,0 +1,1 @@
+# TODO: Ubah Warna Utama ke Maroon Red - Selesai ✅\n\n- [x] Step 1: Create TODO.md\n- [x] Step 2: Edit style.css - Update :root color variables (primary: #800000 maroon red, secondary: #A52A2A)\n- [x] Step 3: Verify changes (open index.html executed)\n- [x] Step 4: Task completed
