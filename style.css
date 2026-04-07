@@ -1,13 +1,13 @@
 :root {
-  --primary-color: #800000;
-  --secondary-color: #A52A2A;
-  --accent-color: #800000;
+--primary-color: #4FC3F7;
+--secondary-color: #29B6F6;
+--accent-color: #4FC3F7;
   --dark-bg: #0f172a;
-  --light-bg: #F0F8F0;
+--light-bg: #F0F8FF;
   --text-dark: #1e293b;
   --text-light: #475569;
-  --border-color: rgba(128, 0, 0, 0.8);
-  --primary-dark: #660000;
+--border-color: rgba(79, 195, 247, 0.8);
+--primary-dark: #0288D1;
   --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -301,7 +301,7 @@ box-shadow: 0 15px 40px rgba(0,0,0,0.15);
     height: 450px;
     border-radius: 20px;
     object-fit: cover;
-    box-shadow: 0 20px 60px rgba(168, 202, 186, 0.3);
+box-shadow: 0 20px 60px rgba(79, 195, 247, 0.3);
     border: 5px solid rgba(255,255,255,0.9);
     animation: rotateIn 0.8s ease-out;
     /* Foto polos tanpa filter */
@@ -325,8 +325,8 @@ box-shadow: 0 15px 40px rgba(0,0,0,0.15);
     left: 50%;
     transform: translate(-50%, -50%);
     width: 400px;
-    height: 500px;
-background: radial-gradient(circle, rgba(168, 202, 186, 0.4), transparent);
+height: 500px;
+background: radial-gradient(circle, rgba(79, 195, 247, 0.4), transparent);
     border-radius: 20px;
     filter: blur(30px);
     animation: pulse 2s ease-in-out infinite;
@@ -355,8 +355,8 @@ content: '';
     top: -50%;
     right: -10%;
     width: 500px;
-    height: 500px;
-background: radial-gradient(circle, rgba(168, 202, 186, 0.1), transparent);
+height: 500px;
+background: radial-gradient(circle, rgba(79, 195, 247, 0.1), transparent);
     border-radius: 50%;
 }
 
@@ -651,7 +651,7 @@ background: linear-gradient(135deg, rgba(248, 249, 250, 0.5), rgba(233, 236, 239
     bottom: 0;
     left: 0;
     right: 0;
-background: linear-gradient(transparent, rgba(168, 202, 186, 0.9));
+background: linear-gradient(transparent, rgba(79, 195, 247, 0.9));
     color: white;
     padding: 2rem 1.5rem 1.5rem;
     transform: translateY(100%);
