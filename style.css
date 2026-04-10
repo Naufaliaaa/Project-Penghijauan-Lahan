@@ -40,12 +40,17 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(144, 238, 144, 0.95);
     backdrop-filter: blur(10px);
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
     z-index: 1000;
     animation: slideDown 0.6s ease-out;
-}
+}</xai:function_call)
+
+
+
+<xai:function_call name="edit_file">
+<parameter name="path">/Users/naufal/Downloads/Lahan Penghijauan/style.css
 
 @keyframes slideDown {
     from {
@@ -131,7 +136,7 @@ body {
     left: 0;
     width: 0;
     height: 3px;
-    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    background: linear-gradient(90deg, #90EE90, #98FB98);
     transition: var(--transition);
 }
 
@@ -148,7 +153,7 @@ body {
 .hamburger span {
     width: 25px;
     height: 3px;
-    background: var(--primary-color);
+    background: #90EE90;
     margin: 5px 0;
     transition: var(--transition);
     border-radius: 2px;
