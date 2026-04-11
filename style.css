@@ -8,7 +8,7 @@
   --text-light: #475569;
 --border-color: rgba(34, 197, 94, 0.8);
 --primary-dark: #15803D;
-  --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+--transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 * {
@@ -43,9 +43,21 @@ body {
     background: rgba(144, 238, 144, 0.95);
     backdrop-filter: blur(10px);
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
+z-index: 1000;
     animation: slideDown 0.6s ease-out;
-}</xai:function_call)
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 
 
 
@@ -72,6 +84,7 @@ body {
     margin: 0 auto;
     position: relative;
 }
+
 
 /* Ensure hamburger is clickable on mobile/tablet */
 @media (max-width: 1024px) {
@@ -208,6 +221,7 @@ body {
     z-index: 2;
     padding: 2rem;
 }
+
 
 .hero-text {
     color: white;
