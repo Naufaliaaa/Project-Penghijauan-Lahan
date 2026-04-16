@@ -68,29 +68,7 @@ document.querySelectorAll('section').forEach(section => {
     observer.observe(section);
 });
 
-// Fungsi Filter Portofolio
-const filterBtns = document.querySelectorAll('.filter-btn');
-const portfolioItems = document.querySelectorAll('.portfolio-item');
 
-filterBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-        // Hapus kelas aktif dari semua tombol
-        filterBtns.forEach(b => b.classList.remove('active'));
-        // Tambahkan kelas aktif ke tombol yang diklik
-        btn.classList.add('active');
-
-        const filterValue = btn.getAttribute('data-filter');
-
-        portfolioItems.forEach(item => {
-            if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
-                item.classList.remove('hidden');
-                item.style.animation = 'scaleUp 0.6s ease-out';
-            } else {
-                item.classList.add('hidden');
-            }
-        });
-    });
-});
 
 // Validasi Formulir dan Pengiriman dengan EmailJS
 const contactForm = document.getElementById('contactForm');
