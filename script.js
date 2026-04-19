@@ -301,4 +301,4 @@ window.addEventListener('scroll', () => {
 
 console.log('Website portofolio berhasil dimuat!');
 
-//Ini file JS untuk Fungsi dan animasi gelooh.
+//Ini file JS untuk Fungsi dan animasi.
