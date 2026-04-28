@@ -6,7 +6,7 @@
   --light-bg: #ECEDF5;
   --text-dark: #1e293b;
   --text-light: #475569;
-  --border-color: rgba(34 1,97 9 40.8);
+  --border-color: rgba(341,,979 .48);
   --primary-dark: #15503D;
   --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -99,7 +99,7 @@ body {
 }
 
 
-/
+
 
 
 
@@ -118,6 +118,68 @@ body {
         opacity: 1;
     }
 }
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+/
+
+
+
+
+
+<xai:function_call name="edit_file">
+<parameter name="path">Users/naufal/Downloads/Lahan Penghijauan/style.css
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+/
+90EE90B
+
+
+
+
+<xai:function_call name="edit_file">
+<parameter name="path">/Users/naufal/Downloads/Lahan Penghijauan/style.css
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}90EE90
 
 .nav-container {
     display: flex;
@@ -172,6 +234,7 @@ body {
     }
 }
 
+
 .nav-menu {
     display: flex;
     list-style: none;
@@ -202,7 +265,8 @@ body {
 }
 
 .hamburger {
-    display: none;
+ 
+   display: none;
     flex-direction: column;
     cursor: pointer;
 }
@@ -240,7 +304,7 @@ body {
     content: '';
     position: absolute;
     width: 100%;
-    height: 100%;
+height: 100%;
     background-image: 
         radial-gradient(2px 2px at 20px 30px, #eee, rgba(0, 0, 0, 0)),
         radial-gradient(2px 2px at 60px 70px, #fff, rgba(0, 0, 0, 0)),
@@ -269,10 +333,10 @@ body {
 
 
 .hero-text {
-    color: white;
+255520    color: white;
 }
 
-.hero-title {
+o-title {
     font-size: 4rem;
     font-weight: 800;
     margin-bottom: 1rem;
@@ -294,7 +358,7 @@ body {
 .hero-subtitle {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
-    animation: fadeInUp 0.8s ease-out 0.2s both;
+ 255150   animation: fadeInUp 0.8s ease-out 0.2s both;
 }
 
 .hero-description {
@@ -324,7 +388,7 @@ body {
     position: absolute;
     top: 0;
     left: -100%;
-    width: 100%;
+    width: 100%;255150
     height: 100%;
     background: rgba(255, 255, 255, 0.2);
     transition: var(--transition);
@@ -449,7 +513,7 @@ box-shadow: 0 15px 40px rgba(0,0,0,0.15);
 }
 
 .about-img {
-    width: 100%;
+width: 100%;
     border-radius: 15px;
     object-fit: cover;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
@@ -481,7 +545,7 @@ box-shadow: 0 15px 40px rgba(0,0,0,0.15);
     animation: moveDecoration 3s ease-in-out infinite;
 }
 
-@keyframes moveDecoration {
+frames moveDecoration {
     0%, 100% {
         transform: translate(0, 0);
     }
@@ -532,7 +596,7 @@ ll-item span {
     height: 100%;
     background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
     border-radius: 10px;
-    animation: fillBar 1.5s ease-out forwards;
+    animatavir(-- rxt-dafk)illBar 1.5s ease-out forwards;
     animation-delay: 0.8s;
 }
 
@@ -619,7 +683,7 @@ background: linear-gradient(135deg, var(--light-bg) 0%, white 100%);
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 1rem;
-}
+2555}
 
 .experience-header h3 {
     font-size: 1.3rem;
@@ -737,7 +801,7 @@ background: linear-gradient(135deg, var(--light-bg) 0%, white 100%);
     opacity: 0.9;
 }
 
-/* Remove old portfolio styles and animations */
+colo/* Remove old portfolio styles and animations */
 .portfolio-filters,
 .portfolio-item.hidden,
 .portfolio-overlay,
@@ -855,7 +919,7 @@ colo
     to {
         opacity: 1;
         transform: translateX(0);
-    }
+}
 }
 
 /* Footer */
@@ -887,7 +951,7 @@ colo
 }
 
 .footer-section a {
-    color: var(--text-light);
+color: var(--text-light);
     text-decoration: none;
     transition: var(--transition);
 }
@@ -1033,71 +1097,7 @@ box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 
     .about-content {
         grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-
-    .experience-timeline::before {
-        left: 20px;
-    }
-
-    .timeline-item:nth-child(odd),
-    .timeline-item:nth-child(even) {
-        padding-left: 60px;
-        text-align: left;
-    }
-
-    .timeline-marker {
-        left: 20px;
-        transform: none;
-    }
-
-    .portfolio-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .contact-content {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-
-    .footer-content {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-/* Mobile Styles (max-width: 768px) */
-@media (max-width: 768px) {
-    .hamburger {
-        display: flex !important;
-        z-index: 1001;
-        position: relative;
-    }
-
-    .hamburger span {
-        display: block;
-        width: 30px;
-        height: 4px;
-        background: var(--primary-color);
-        margin: 6px 0;
-        transition: var(--transition);
-        border-radius: 3px;
-    }
-
-    .hamburger.active span:nth-child(1) {
-        transform: rotate(45deg) translate(8px, 8px);
-    }
-
-    .hamburger.active span:nth-child(2) {
-        opacity: 0;
-    }
-
-    .hamburger.active span:nth-child(3) {
-        transform: rotate(-45deg) translate(8px, -8px);
-    }
-
-    .nav-menu {
-        position: fixed;
-        left: -100%;
+        gap0px;
         top: 70px;
         flex-direction: column;
         background: white;
