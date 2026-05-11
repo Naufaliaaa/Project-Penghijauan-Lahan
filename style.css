@@ -4,18 +4,19 @@ Rebuilt clean CSS (removed corrupted tokens: corrupted tokens, broken properties
 */
 
 :root {
-  /* Ungu tua (main warna) */
-  --primary-color: #6d28d9;
-  --secondary-color: #4c1d95;
-  --accent-color: #a78bfa;
-  --dark-bg: #3b0764;
-  --light-bg: #ede9fe;
-  --text-dark: #1e293b;
-  --text-light: #475569;
-  --border-color: rgba(109, 40, 217, 0.8);
-  --primary-dark: #4c1d95;
+  /* Biru langit (main colors) */
+  --primary-color: #0ea5e9;
+  --secondary-color: #0284c7;
+  --accent-color: #38bdf8;
+  --dark-bg: #0b2a3a;
+  --light-bg: #e0f2fe;
+  --text-dark: #0f172a;
+  --text-light: #334155;
+  --border-color: rgba(14, 165, 233, 0.85);
+  --primary-dark: #0369a1;
   --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 * {
   margin: 0;
@@ -30,7 +31,8 @@ html {
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: var(--text-dark);
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  background: linear-gradient(135deg, #e0f2fe 0%, var(--light-bg) 35%, var(--primary-color) 100%);
+
   line-height: 1.6;
   overflow-x: hidden;
 }
@@ -46,9 +48,11 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  background: rgba(167, 139, 250, 0.95);
+background: rgba(56, 189, 248, 0.20);
+
   backdrop-filter: blur(10px);
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 20px rgba(2, 132, 199, 0.18);
+
   z-index: 1000;
   animation: slideDown 0.6s ease-out;
 }
@@ -118,7 +122,8 @@ body {
   left: 0;
   width: 0;
   height: 3px;
-  background: linear-gradient(90deg, #a78bfa, #7c3aed);
+  background: linear-gradient(90deg, var(--accent-color), var(--secondary-color));
+
   transition: var(--transition);
 }
 
@@ -135,7 +140,8 @@ body {
 .hamburger span {
   width: 25px;
   height: 3px;
-  background: #a78bfa;
+  background: var(--accent-color);
+
   margin: 5px 0;
   transition: var(--transition);
   border-radius: 2px;
@@ -230,20 +236,22 @@ body {
 .cta-button {
   display: inline-block;
   padding: 0.9rem 1.4rem;
-  background: rgba(109, 40, 217, 0.95);
+  background: rgba(14, 165, 233, 0.95);
   color: white;
   text-decoration: none;
   font-weight: 700;
   border-radius: 12px;
   margin-top: 1rem;
   transition: var(--transition);
-  box-shadow: 0 10px 30px rgba(109, 40, 217, 0.3);
+  box-shadow: 0 10px 30px rgba(14, 165, 233, 0.25);
+
 }
 
 .cta-button:hover {
   transform: translateY(-3px);
-  background: rgba(76, 29, 149, 1);
+  background: rgba(2, 132, 199, 1);
 }
+
 
 .hero-image {
   display: flex;
@@ -271,7 +279,8 @@ body {
 .image-glow {
   position: absolute;
   inset: -30%;
-  background: radial-gradient(circle at 30% 20%, rgba(167, 139, 250, 0.6), rgba(109, 40, 217, 0));
+  background: radial-gradient(circle at 30% 20%, rgba(56, 189, 248, 0.6), rgba(2, 132, 199, 0));
+
   animation: glowMove 6s ease-in-out infinite;
   pointer-events: none;
 }
@@ -346,7 +355,8 @@ section {
   position: absolute;
   inset: -15px;
   border-radius: 26px;
-  border: 2px solid rgba(167, 139, 250, 0.6);
+  border: 2px solid rgba(56, 189, 248, 0.6);
+
   pointer-events: none;
 }
 
@@ -386,7 +396,8 @@ section {
 
 .skill-progress {
   height: 100%;
-  background: linear-gradient(90deg, #a78bfa, #6d28d9);
+  background: linear-gradient(90deg, #38bdf8, #0284c7);
+
   width: 50%;
   border-radius: 999px;
 }
@@ -414,8 +425,10 @@ section {
   width: 14px;
   height: 14px;
   border-radius: 50%;
-  background: rgba(109, 40, 217, 0.9);
-  box-shadow: 0 0 0 5px rgba(109, 40, 217, 0.2);
+  background: rgba(14, 165, 233, 0.9);
+
+  box-shadow: 0 0 0 5px rgba(14, 165, 233, 0.2);
+
 }
 
 .experience-card {
@@ -457,8 +470,9 @@ section {
 .tag {
   display: inline-block;
   padding: 0.35rem 0.75rem;
-  background: rgba(109, 40, 217, 0.18);
-  border: 1px solid rgba(109, 40, 217, 0.35);
+  background: rgba(14, 165, 233, 0.18);
+  border: 1px solid rgba(14, 165, 233, 0.35);
+
   color: white;
   border-radius: 999px;
   font-weight: 700;
@@ -556,7 +570,8 @@ section {
   display: grid;
   place-items: center;
   border-radius: 12px;
-  background: rgba(167, 139, 250, 0.25);
+  background: rgba(56, 189, 248, 0.20);
+
 }
 
 .contact-item h4 {
@@ -598,8 +613,9 @@ section {
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  border-color: rgba(109, 40, 217, 0.7);
-  box-shadow: 0 0 0 4px rgba(109, 40, 217, 0.2);
+  border-color: rgba(14, 165, 233, 0.7);
+  box-shadow: 0 0 0 4px rgba(14, 165, 233, 0.2);
+
 }
 
 .submit-btn {
@@ -608,16 +624,18 @@ section {
   border-radius: 14px;
   padding: 0.95rem 1rem;
   font-weight: 800;
-  background: rgba(109, 40, 217, 0.95);
+  background: rgba(14, 165, 233, 0.95);
   color: white;
   cursor: pointer;
   transition: var(--transition);
 }
 
+
 .submit-btn:hover {
-  background: rgba(76, 29, 149, 1);
+  background: rgba(2, 132, 199, 1);
   transform: translateY(-2px);
 }
+
 
 /* Footer */
 .footer {
@@ -673,15 +691,17 @@ section {
   border-radius: 14px;
   display: grid;
   place-items: center;
-  background: rgba(109, 40, 217, 0.22);
+  background: rgba(56, 189, 248, 0.22);
   border: 1px solid rgba(255, 255, 255, 0.18);
   transition: var(--transition);
 }
 
+
 .social-link:hover {
   transform: translateY(-3px);
-  background: rgba(109, 40, 217, 0.35);
+  background: rgba(14, 165, 233, 0.35);
 }
+
 
 .footer-bottom {
   margin-top: 2.5rem;
@@ -702,10 +722,11 @@ section {
   height: 46px;
   border-radius: 16px;
   border: none;
-  background: rgba(109, 40, 217, 0.95);
+  background: rgba(14, 165, 233, 0.95);
   color: white;
   cursor: pointer;
-  box-shadow: 0 18px 40px rgba(109, 40, 217, 0.35);
+  box-shadow: 0 18px 40px rgba(14, 165, 233, 0.35);
+
   opacity: 0;
   pointer-events: none;
   transform: translateY(10px);

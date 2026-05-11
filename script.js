@@ -221,7 +221,8 @@ const createScrollProgressBar = () => {
     progressBar.style.top = '0';
     progressBar.style.left = '0';
     progressBar.style.height = '3px';
-    progressBar.style.background = 'linear-gradient(90deg, #0ea5e9, #0284c7)';
+    progressBar.style.background = 'linear-gradient(90deg, #38bdf8, #0284c7)';
+
     progressBar.style.zIndex = '999';
     document.body.appendChild(progressBar);
 
