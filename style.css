@@ -5,15 +5,16 @@ Rebuilt clean CSS (removed corrupted tokens: corrupted tokens, broken properties
 
 :root {
   /* Biru langit (main colors) */
-  --primary-color: #0ea5e9;
-  --secondary-color: #0284c7;
-  --accent-color: #38bdf8;
-  --dark-bg: #0b2a3a;
-  --light-bg: #e0f2fe;
-  --text-dark: #0f172a;
-  --text-light: #334155;
-  --border-color: rgba(14, 165, 233, 0.85);
-  --primary-dark: #0369a1;
+  --primary-color: #fbbf24; /* yellow-500 */
+  --secondary-color: #f59e0b; /* amber-500 */
+  --accent-color: #fde68a; /* yellow-200 */
+  --dark-bg: #2a1d00;
+  --light-bg: #fef3c7;
+  --text-dark: #2a1d00;
+  --text-light: #6b4f00;
+  --border-color: rgba(245, 158, 11, 0.85);
+  --primary-dark: #d97706;
+
   --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -48,10 +49,10 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-background: rgba(56, 189, 248, 0.20);
+  background: rgba(253, 230, 138, 0.22);
 
   backdrop-filter: blur(10px);
-  box-shadow: 0 2px 20px rgba(2, 132, 199, 0.18);
+  box-shadow: 0 2px 20px rgba(245, 158, 11, 0.18);
 
   z-index: 1000;
   animation: slideDown 0.6s ease-out;
@@ -236,20 +237,21 @@ background: rgba(56, 189, 248, 0.20);
 .cta-button {
   display: inline-block;
   padding: 0.9rem 1.4rem;
-  background: rgba(14, 165, 233, 0.95);
-  color: white;
+  background: rgba(245, 158, 11, 0.95);
+  color: #2a1d00;
+
   text-decoration: none;
   font-weight: 700;
   border-radius: 12px;
   margin-top: 1rem;
   transition: var(--transition);
-  box-shadow: 0 10px 30px rgba(14, 165, 233, 0.25);
+  box-shadow: 0 10px 30px rgba(245, 158, 11, 0.25);
 
 }
 
 .cta-button:hover {
   transform: translateY(-3px);
-  background: rgba(2, 132, 199, 1);
+  background: rgba(217, 119, 6, 1);
 }
 
 
@@ -279,7 +281,8 @@ background: rgba(56, 189, 248, 0.20);
 .image-glow {
   position: absolute;
   inset: -30%;
-  background: radial-gradient(circle at 30% 20%, rgba(56, 189, 248, 0.6), rgba(2, 132, 199, 0));
+  background: radial-gradient(circle at 30% 20%, rgba(253, 230, 138, 0.65), rgba(245, 158, 11, 0));
+
 
   animation: glowMove 6s ease-in-out infinite;
   pointer-events: none;
@@ -355,7 +358,7 @@ section {
   position: absolute;
   inset: -15px;
   border-radius: 26px;
-  border: 2px solid rgba(56, 189, 248, 0.6);
+  border: 2px solid rgba(245, 158, 11, 0.65);
 
   pointer-events: none;
 }
@@ -396,7 +399,8 @@ section {
 
 .skill-progress {
   height: 100%;
-  background: linear-gradient(90deg, #38bdf8, #0284c7);
+  background: linear-gradient(90deg, #fde68a, #f59e0b);
+
 
   width: 50%;
   border-radius: 999px;
@@ -425,9 +429,9 @@ section {
   width: 14px;
   height: 14px;
   border-radius: 50%;
-  background: rgba(14, 165, 233, 0.9);
+  background: rgba(245, 158, 11, 0.95);
 
-  box-shadow: 0 0 0 5px rgba(14, 165, 233, 0.2);
+  box-shadow: 0 0 0 5px rgba(245, 158, 11, 0.22);
 
 }
 
@@ -470,8 +474,9 @@ section {
 .tag {
   display: inline-block;
   padding: 0.35rem 0.75rem;
-  background: rgba(14, 165, 233, 0.18);
-  border: 1px solid rgba(14, 165, 233, 0.35);
+  background: rgba(245, 158, 11, 0.18);
+  border: 1px solid rgba(245, 158, 11, 0.35);
+
 
   color: white;
   border-radius: 999px;
@@ -570,7 +575,7 @@ section {
   display: grid;
   place-items: center;
   border-radius: 12px;
-  background: rgba(56, 189, 248, 0.20);
+  background: rgba(253, 230, 138, 0.22);
 
 }
 
@@ -613,8 +618,8 @@ section {
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  border-color: rgba(14, 165, 233, 0.7);
-  box-shadow: 0 0 0 4px rgba(14, 165, 233, 0.2);
+  border-color: rgba(245, 158, 11, 0.7);
+  box-shadow: 0 0 0 4px rgba(245, 158, 11, 0.2);
 
 }
 
@@ -624,17 +629,18 @@ section {
   border-radius: 14px;
   padding: 0.95rem 1rem;
   font-weight: 800;
-  background: rgba(14, 165, 233, 0.95);
-  color: white;
+  background: rgba(245, 158, 11, 0.95);
+  color: #2a1d00;
   cursor: pointer;
   transition: var(--transition);
 }
 
 
 .submit-btn:hover {
-  background: rgba(2, 132, 199, 1);
+  background: rgba(217, 119, 6, 1);
   transform: translateY(-2px);
 }
+
 
 
 /* Footer */
@@ -691,16 +697,18 @@ section {
   border-radius: 14px;
   display: grid;
   place-items: center;
-  background: rgba(56, 189, 248, 0.22);
+  background: rgba(253, 230, 138, 0.22);
   border: 1px solid rgba(255, 255, 255, 0.18);
+
   transition: var(--transition);
 }
 
 
 .social-link:hover {
   transform: translateY(-3px);
-  background: rgba(14, 165, 233, 0.35);
+  background: rgba(245, 158, 11, 0.35);
 }
+
 
 
 .footer-bottom {
@@ -722,10 +730,11 @@ section {
   height: 46px;
   border-radius: 16px;
   border: none;
-  background: rgba(14, 165, 233, 0.95);
-  color: white;
+  background: rgba(245, 158, 11, 0.95);
+  color: #2a1d00;
   cursor: pointer;
-  box-shadow: 0 18px 40px rgba(14, 165, 233, 0.35);
+  box-shadow: 0 18px 40px rgba(245, 158, 11, 0.35);
+
 
   opacity: 0;
   pointer-events: none;
