@@ -23,4 +23,4 @@ Bagian EmailJS ada di `script.js`:
 
 Sesuaikan dulu sebelum form bisa mengirim email oke? yaaa.
 
-## 24 MAY 2026
+## 25 MAY 2026
