@@ -21,6 +21,6 @@ Bagian EmailJS ada di `script.js`:
 - `service_YOUR_SERVICE_ID`
 - `template_YOUR_TEMPLATE_ID`
 
-Sesuaikan dulu sebelum form bisa mengirim email oke? yaaa.
+Sesuaikan dulu sebelum form bisa mengirim email oke? yaaaa.
 
 ## 26 MAY 2026
