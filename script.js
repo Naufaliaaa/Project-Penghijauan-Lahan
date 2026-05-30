@@ -302,4 +302,4 @@ window.addEventListener('scroll', () => {
 
 console.log('Website portofolio berhasil dimuat!');
 
-//ini file JS untuk Fungsi dan animasiiiii.
+//ini file JS untuk Fungsi dan animasi.
